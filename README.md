@@ -14,6 +14,8 @@
 
 
 
+---
+
 ### About Me
 
 <small>
@@ -34,6 +36,8 @@
 
 
 
+---
+
 ### Focus
 
 <small>
@@ -53,6 +57,8 @@
 </small>
 
 
+
+---
 
 ### Tech Stack
 
@@ -100,6 +106,8 @@
 
 
 
+---
+
 ### Projects
 
 <small>
@@ -134,6 +142,8 @@
 
 
 
+---
+
 ### What I Value
 
 <small>
@@ -152,6 +162,8 @@
 
 
 
+---
+
 ### Collaboration
 
 <small>
@@ -169,6 +181,8 @@
 </small>
 
 
+
+---
 
 ### GitHub Stats
 
