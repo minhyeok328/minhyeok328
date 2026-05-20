@@ -19,7 +19,7 @@
 
 - **AI / LLM**을 중심으로, 데이터 파이프라인 → 모델링 → 서비스 구현까지 **End-to-End**로 연결해 본 경험이 있습니다.
 - "문제를 정의하고, 데이터로 검증하고, **실제로 동작하는 서비스**까지 이어지는 것"을 좋아합니다.
-- 팀 프로젝트에서 **RAG/LLM 서비스**, **분류·예측 ML**, **MLOps 실험 관리**를 다뤄 왔습니다.
+- 팀 프로젝트에서 **RAG/LLM 서비스**, **Django 풀스택 웹**, **분류·예측 ML**, **MLOps 실험 관리**를 다뤄 왔습니다.
 - 프로젝트에서 **새로운 기술을 접해 익히고, 직접 적용해 보는 과정**을 가장 즐깁니다.
 - 동시에 **풀스택**을 목표로 **프론트엔드(React)** 와 **인프라(Docker · AWS · 배포)** 를 넓혀 가는 **주니어 개발자**입니다.
 
@@ -53,6 +53,7 @@
 **Full-Stack (성장 중)**
 
 - 화면(UI) ↔ API ↔ DB를 하나의 서비스 흐름으로 묶는 연습
+- 4차 프로젝트에서 **Django SSR + Tailwind + API 연동**으로 웹 서비스 End-to-End 경험
 - Streamlit 경험을 바탕으로 **React 기반 웹 UI**로 확장
 
 **Infrastructure (학습 중)**
@@ -89,6 +90,7 @@
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat&logo=openai&logoColor=white)
 ![LangChain](https://img.shields.io/badge/LangChain-121212?style=flat&logo=chainlink&logoColor=white)
 ![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat)
+![Pinecone](https://img.shields.io/badge/Pinecone-000000?style=flat&logo=pinecone&logoColor=white)
 
 #### DevOps / Cloud
 
@@ -124,6 +126,13 @@
   **역할:** LLM 응답 파이프라인 · 임베딩 검색 · Streamlit UI · 평가 리포트 기반 품질 개선  
   **연결:** 대표 **AI/LLM** 포트폴리오 — RAG 설계부터 검색 품질까지 End-to-End
 
+- **[4th_project — LG Home (LG 가전 AI 추천·상담 서비스)](https://github.com/SKN26-4th-1st/4th_project)**  
+
+  LG 가전 5개 카테고리(TV·냉장고·세탁기·에어컨·청소기)에 대해 **필터 검색 UI**와 **LangGraph 기반 LG봇(LGneer)** 자연어 상담, **Pinecone 사용설명서 RAG**를 제공하는 Django SSR 웹 서비스 프로젝트입니다.  
+
+  **역할:** Figma 화면 설계 · Django Templates + Tailwind UI · 검색/상세/챗봇·찜 JS · Django API 연동 · Git 협업·템플릿·static 구조 정리  
+  **연결:** AI(LLM+RAG) + 상품 DB + 웹 UI를 하나의 실서비스 흐름으로 통합 — **풀스택 성장** 포트폴리오
+
 </small>
 
 ---
@@ -132,7 +141,7 @@
 
 <small>
 
-- 기술 선택의 기준을 "멋진 기술"보다 **"문제 해결 적합성"**에 둡니다. 필요할 때는 **새로운 스택도 익혀 프로젝트에 적용**해 봅니다.
+- 기술 선택의 기준을 "멋진 기술"보다 **"문제 해결 적합성"** 에 둡니다. 필요할 때는 **새로운 스택도 익혀 프로젝트에 적용**해 봅니다.
 - 처음 보는 기술도 문서·예제를 따라 **작은 단위로 검증**한 뒤, 팀 작업에 연결하는 편입니다.
 - 완벽한 이해를 기다리기보다 **직접 구현·실험**하고, 시행착오에서 얻은 내용을 **기록·공유**하며 개선합니다.
 - 단순 정확도보다 **재현성**, **설명 가능성**, **서비스에 쓸 수 있는지**를 함께 봅니다.
