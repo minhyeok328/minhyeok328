@@ -19,9 +19,9 @@
 
 - **AI / LLM**을 중심으로, 데이터 파이프라인 → 모델링 → 서비스 구현까지 **End-to-End**로 연결해 본 경험이 있습니다.
 - "문제를 정의하고, 데이터로 검증하고, **실제로 동작하는 서비스**까지 이어지는 것"을 좋아합니다.
-- 팀 프로젝트에서 **RAG/LLM 서비스**, **Django 풀스택 웹**, **분류·예측 ML**, **MLOps 실험 관리**를 다뤄 왔습니다.
+- 팀 프로젝트에서 **RAG/LLM 서비스**, **Django SSR 웹(프론트·API 연동)**, **분류·예측 ML**, **MLOps 실험 관리**를 다뤄 왔습니다.
 - 프로젝트에서 **새로운 기술을 접해 익히고, 직접 적용해 보는 과정**을 가장 즐깁니다.
-- 동시에 **풀스택**을 목표로 **프론트엔드(React)** 와 **인프라(Docker · AWS · 배포)** 를 넓혀 가는 **주니어 개발자**입니다.
+- **LG Home** 등 팀 프로젝트에서 **웹 UI 전 영역(화면·템플릿·클라이언트 JS)** 을 맡았고, **풀스택**을 목표로 **React**와 **인프라(Docker · AWS · 배포)** 를 넓혀 가는 **주니어 개발자**입니다.
 
 </small>
 
@@ -31,9 +31,9 @@
 
 <small>
 
-- **Frontend:** React 컴포넌트 설계, API 연동, Tailwind 기반 UI
-- **Backend:** Django REST, 서비스 레이어·DB 연동 패턴
-- **Infra:** Docker, **AWS** 클라우드 기초, GitHub 협업·배포·CI/CD
+- **Frontend:** React 컴포넌트 설계(**Django SSR · 바닐라 JS · Tailwind** 실무 경험 위에 확장)
+- **Backend:** Django 뷰·URL·fetch API 연동 경험을 바탕으로 **DRF·서비스 레이어** 패턴 학습
+- **Infra:** Docker, **AWS** 클라우드 기초, GitHub **Issue · PR · Conventional Commits** 협업·배포
 
 </small>
 
@@ -50,11 +50,11 @@
 - **Data Pipeline:** 수집 → 전처리 → 저장 → 서빙까지 데이터 흐름 설계
 - **Service Delivery:** FastAPI/Streamlit으로 프로토타입을 빠르게 제품 형태로 구현
 
-**Full-Stack (성장 중)**
+**Web / Frontend (경험 · 성장)**
 
-- 화면(UI) ↔ API ↔ DB를 하나의 서비스 흐름으로 묶는 연습
-- 4차 프로젝트에서 **Django SSR + Tailwind + API 연동**으로 웹 서비스 End-to-End 경험
-- Streamlit 경험을 바탕으로 **React 기반 웹 UI**로 확장
+- **Django Templates(SSR) + Tailwind v4 + 바닐라 JS** — 메인·검색·상세·채팅·계정 UI 전반 구현
+- **`ApiResponse` / `fetchJson` 패턴**, 찜·필터·챗 클라이언트 모듈로 **백엔드 REST API와 계약 맞춤**
+- Streamlit·SSR 경험을 이어 **React 기반 SPA UI**로 확장 중
 
 **Infrastructure (학습 중)**
 
@@ -90,7 +90,6 @@
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat&logo=openai&logoColor=white)
 ![LangChain](https://img.shields.io/badge/LangChain-121212?style=flat&logo=chainlink&logoColor=white)
 ![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat)
-![Pinecone](https://img.shields.io/badge/Pinecone-000000?style=flat&logo=pinecone&logoColor=white)
 
 #### DevOps / Cloud
 
@@ -126,12 +125,13 @@
   **역할:** LLM 응답 파이프라인 · 임베딩 검색 · Streamlit UI · 평가 리포트 기반 품질 개선  
   **연결:** 대표 **AI/LLM** 포트폴리오 — RAG 설계부터 검색 품질까지 End-to-End
 
-- **[4th_project — LG Home (LG 가전 AI 추천·상담 서비스)](https://github.com/SKN26-4th-1st/4th_project)**  
+- **[LG Home — LG 가전 AI 추천·상담 서비스](https://github.com/SKN26-4th-1st/4th_project)** · [팀](https://github.com/SKN26-4th-1st) · [Frontend docs](https://github.com/SKN26-4th-1st/4th_project/tree/main/docs/03-frontend)  
 
-  LG 가전 5개 카테고리(TV·냉장고·세탁기·에어컨·청소기)에 대해 **필터 검색 UI**와 **LangGraph 기반 LG봇(LGneer)** 자연어 상담, **Pinecone 사용설명서 RAG**를 제공하는 Django SSR 웹 서비스 프로젝트입니다.  
+  LG 가전 5개 카테고리(TV·냉장고·세탁기·에어컨·청소기)에 대해 **필터 검색**, **LangGraph LG봇(LGneer)**, **Pinecone 사용설명서 RAG**를 묶은 **Django SSR** 웹 서비스입니다. (React 미사용 — Templates + Tailwind + 바닐라 JS)  
 
-  **역할:** Figma 화면 설계 · Django Templates + Tailwind UI · 검색/상세/챗봇·찜 JS · Django API 연동 · Git 협업·템플릿·static 구조 정리  
-  **연결:** AI(LLM+RAG) + 상품 DB + 웹 UI를 하나의 실서비스 흐름으로 통합 — **풀스택 성장** 포트폴리오
+  **역할:** Figma 설계 · Django SSR + Tailwind 전 화면(검색·채팅·계정·마이페이지) · 찜·필터·챗 클라이언트 모듈 · REST API 연동 · 프론트 QA(접근성·에러 UX) 반영
+
+  **연결:** 팀 AI·DB·백엔드와 **UI↔API 인터페이스**를 맞춘 **웹 프론트엔드** 포트폴리오 — LLM·RAG 경험을 **실사용 웹 화면**으로 연결
 
 </small>
 
@@ -157,7 +157,8 @@
 
 - 막히는 부분은 문서·이슈·팀과 **빠르게 공유**해 함께 풀어가는 편입니다.
 - 데이터 / 모델 / API / UI 사이 **인터페이스를 맞추는 역할**을 팀에서 맡는 것을 좋아합니다.
-- 실험·구현 결과를 팀이 의사결정에 쓸 수 있게 **정리해 공유**하는 것을 중요하게 생각합니다.
+- **Issue · Branch · Conventional Commits · PR 리뷰** 후 머지하는 Git 워크플로를 지킵니다.
+- 구현·QA 결과를 `docs/`에 **정리해 공유**해 팀 의사결정과 후속 개선에 쓰이게 합니다.
 
 </small>
 
