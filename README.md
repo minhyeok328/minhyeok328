@@ -125,7 +125,7 @@
   **역할:** LLM 응답 파이프라인 · 임베딩 검색 · Streamlit UI · 평가 리포트 기반 품질 개선  
   **연결:** 대표 **AI/LLM** 포트폴리오 — RAG 설계부터 검색 품질까지 End-to-End
 
-- **[LG Home — LG 가전 AI 추천·상담 서비스](https://github.com/SKN26-4th-1st/4th_project)** · [팀](https://github.com/SKN26-4th-1st) · [Frontend docs](https://github.com/SKN26-4th-1st/4th_project/tree/main/docs/03-frontend)  
+- **[LG Home — LG 가전 AI 추천·상담 서비스](https://github.com/SKN26-4th-1st/4th_project)**
 
   LG 가전 5개 카테고리(TV·냉장고·세탁기·에어컨·청소기)에 대해 **필터 검색**, **LangGraph LG봇(LGneer)**, **Pinecone 사용설명서 RAG**를 묶은 **Django SSR** 웹 서비스입니다. (React 미사용 — Templates + Tailwind + 바닐라 JS)  
 
