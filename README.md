@@ -29,7 +29,7 @@
 
 <small>
 
-- **AI / Agent:** 개인 저장소 [**min_agents**](https://github.com/minhyeok328/min_agents)에서 **Codex 오케스트레이터 → write scope가 고정된 subagent** 구조(Tier, active workspace, task card)를 설계·문서화하며 멀티 에이전트 **운영 셸**을 실험 중 — LangGraph RAG 등 **서비스 AI** 경험의 확장
+- **AI / Agent:** 개인 저장소 [**codex_subagent**](https://github.com/minhyeok328/codex_subagent)에서 **Codex + subagent**가 `workspaces/` 아래 Git 프로젝트를 안전하게 다루도록 **active workspace**, workflow(Default · Formal Planning · Full Delivery), task card·handover·review 규칙을 정리한 **운영 셸**을 구축·확장 중 — LangGraph RAG 등 **서비스 AI** 경험의 확장
 - **Frontend:** React 컴포넌트 설계(**Django SSR · 바닐라 JS · Tailwind** 실무 경험 위에 확장)
 - **Backend:** Django 뷰·URL·fetch API 연동 경험을 바탕으로 **DRF·서비스 레이어** 패턴 학습
 - **Infra:** Docker, **AWS** 클라우드 기초, GitHub **Issue · PR · Conventional Commits** 협업·배포
@@ -71,12 +71,12 @@
 
   **연결:** 팀 AI·DB·백엔드와 **UI↔API 인터페이스**를 맞춘 **웹 프론트엔드** 포트폴리오 — LLM·RAG 경험을 **실사용 웹 화면**으로 연결
 
-- **[min_agents — Codex multi-agent 운영 셸](https://github.com/minhyeok328/min_agents)** *(개인)*
+- **[codex_subagent — Codex orchestration subagent system](https://github.com/minhyeok328/codex_subagent)** *(개인)*
 
-  [OpenAI Codex](https://developers.openai.com/codex)를 **오케스트레이터**로 두고, subagent가 **Subagent Task Card**·**active workspace**·Tier 검증 규칙 안에서만 작업하는 **multi-agent 운영 셸**입니다. 제품 앱이 아니라 `workspaces/` 아래 Git 프로젝트를 안전하게 다루기 위한 **문서·규칙·템플릿** 중심 저장소입니다.
+  [OpenAI Codex](https://developers.openai.com/codex)와 subagent가 **읽기·수정 경계**와 **검증 기준**을 따르도록 돕는 **운영 셸**입니다. 제품 앱이 아니라 `workspaces/<app-slug>`에 실제 Git 프로젝트를 두고, 작업마다 **active workspace**를 선언해 잘못된 경로 수정·commit을 줄입니다. 작업 크기에 맞게 **Default / Formal Planning / Full Delivery** workflow를 고르고, subagent 사용 시 **task card · handover · review**를 남기며 **구현과 Git 작업을 분리**합니다.
 
-  **역할:** 오케스트레이션 모델·`AGENTS.md` 운영 규칙 · workflow/workspace/subagent-execution 문서 · task card·workspace 프로필 템플릿 · `check-docs.ps1` 문서 검증  
-  **연결:** PICKLE·LG Home의 **LLM 서비스** 경험을 **Codex 기반 에이전트 협업·경계 설계**로 확장하는 개인 실험
+  **역할:** root `AGENTS.md` · `docs/agent-rules/`(workflow, workspace, subagent, review, security, commit) · `docs/templates/`(workspace profile, task card, handover, integration review) · 온보딩 가이드 · `scripts/check-docs.ps1` 문서 검증  
+  **연결:** PICKLE·LG Home의 **LLM 서비스** 경험을 **Codex 기반 에이전트 운영·경계 설계**로 확장하는 개인 실험 — 프로젝트별 profile·contract·skill은 점진 확장 예정
 
 </small>
 
