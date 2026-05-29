@@ -6,8 +6,8 @@
 
 <p align="center">
 
-  <img src="https://img.shields.io/badge/AI%20%2F%20LLM-111111?style=flat&logoColor=white&labelColor=111111&color=111111" />
-  <img src="https://img.shields.io/badge/Full--Stack%20%E2%86%92%20Growing-0D1117?style=flat&logoColor=white&labelColor=30363D&color=30363D" />
+  <img src="https://img.shields.io/badge/AI%20%E2%80%94%20Learn%20%26%20Adapt-111111?style=flat&logoColor=white&labelColor=111111&color=111111" />
+  <img src="https://img.shields.io/badge/Full--Stack%20Oriented-0D1117?style=flat&logoColor=white&labelColor=30363D&color=30363D" />
 
 </p>
 
@@ -17,11 +17,9 @@
 
 <small>
 
-- **AI / LLM**을 중심으로, 데이터 파이프라인 → 모델링 → 서비스 구현까지 **End-to-End**로 연결해 본 경험이 있습니다.
-- "문제를 정의하고, 데이터로 검증하고, **실제로 동작하는 서비스**까지 이어지는 것"을 좋아합니다.
-- 팀 프로젝트에서 **RAG/LLM 서비스**, **Django SSR 웹(프론트·API 연동)**, **분류·예측 ML**, **MLOps 실험 관리**를 다뤄 왔습니다.
-- 프로젝트에서 **새로운 기술을 접해 익히고, 직접 적용해 보는 과정**을 가장 즐깁니다.
-- **LG Home** 등 팀 프로젝트에서 **웹 UI 전 영역(화면·템플릿·클라이언트 JS)** 을 맡았고, **풀스택**을 목표로 **React**와 **인프라(Docker · AWS · 배포)** 를 넓혀 가는 **주니어 개발자**입니다.
+- **시대의 흐름에 맞춰 AI를 알고 다루며**, RAG·에이전트·ML 등 **새로운 AI 기술을 빠르게 익혀 적용**하는 것을 지향합니다. 이를 **데이터 → 모델 → 서비스**까지 이어 **풀스택**으로 구현·확장해 가는 **주니어 개발자**입니다.
+- 문제를 정의하고 데이터로 검증한 뒤, **실제로 동작하는 서비스**까지 만드는 과정을 좋아합니다.
+- AI·데이터·웹을 잇는 **팀 프로젝트 경험**이 있으며, 상세는 아래 **Projects**를 참고해 주세요. **React**·**AWS** 등은 지금 확장 중입니다.
 
 </small>
 
@@ -31,72 +29,12 @@
 
 <small>
 
+- **AI / Agent:** 최근 **에이전트(Agent)** 에 관심이 많아, **멀티 에이전트 시스템**을 혼자 설계·구현해 보며 역할 분담·오케스트레이션 등을 실험 중 (LangGraph 등 프로젝트 경험 확장)
 - **Frontend:** React 컴포넌트 설계(**Django SSR · 바닐라 JS · Tailwind** 실무 경험 위에 확장)
 - **Backend:** Django 뷰·URL·fetch API 연동 경험을 바탕으로 **DRF·서비스 레이어** 패턴 학습
 - **Infra:** Docker, **AWS** 클라우드 기초, GitHub **Issue · PR · Conventional Commits** 협업·배포
 
 </small>
-
----
-
-### Focus
-
-<small>
-
-**AI / Data (프로젝트 경험)**
-
-- **LLM Application:** LangChain/LangGraph — 질의 라우팅, 슬롯 추출, 근거 기반 응답(RAG)
-- **Machine Learning:** XGBoost, LightGBM, scikit-learn 분류·예측 실험 및 성능 개선
-- **Data Pipeline:** 수집 → 전처리 → 저장 → 서빙까지 데이터 흐름 설계
-- **Service Delivery:** FastAPI/Streamlit으로 프로토타입을 빠르게 제품 형태로 구현
-
-**Web / Frontend (경험 · 성장)**
-
-- **Django Templates(SSR) + Tailwind v4 + 바닐라 JS** — 메인·검색·상세·채팅·계정 UI 전반 구현
-- **`ApiResponse` / `fetchJson` 패턴**, 찜·필터·챗 클라이언트 모듈로 **백엔드 REST API와 계약 맞춤**
-- Streamlit·SSR 경험을 이어 **React 기반 SPA UI**로 확장 중
-
-**Infrastructure (학습 중)**
-
-- Git/GitHub 협업, Docker 기반 환경 구성, **AWS** 클라우드·배포 기초
-
-</small>
-
----
-
-### Tech Stack
-
-#### Main Languages
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-
-#### Frontend
-
-![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white)
-
-#### Backend
-
-![Django](https://img.shields.io/badge/Django-092E20?style=flat&logo=django&logoColor=white)
-
-#### Database
-
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white)
-
-#### LLM / AI
-
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat&logo=openai&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-121212?style=flat&logo=chainlink&logoColor=white)
-![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat)
-
-#### DevOps / Cloud
-
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonaws&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)
 
 ---
 
@@ -137,15 +75,57 @@
 
 ---
 
+### Tech Stack
+
+#### Main Languages
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+
+#### Frontend
+
+![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white)
+
+#### Backend
+
+![Django](https://img.shields.io/badge/Django-092E20?style=flat&logo=django&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)
+
+#### Database
+
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white)
+
+#### LLM / AI
+
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat&logo=openai&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-121212?style=flat)
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat)
+
+#### DevOps / Cloud
+
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonaws&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)
+
+#### Tools
+
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat&logo=figma&logoColor=white)
+![Cursor](https://img.shields.io/badge/Cursor-000000?style=flat&logo=cursor&logoColor=white)
+![Codex](https://img.shields.io/badge/Codex-412991?style=flat&logo=openai&logoColor=white)
+
+---
+
 ### What I Value
 
 <small>
 
-- 기술 선택의 기준을 "멋진 기술"보다 **"문제 해결 적합성"** 에 둡니다. 필요할 때는 **새로운 스택도 익혀 프로젝트에 적용**해 봅니다.
-- 처음 보는 기술도 문서·예제를 따라 **작은 단위로 검증**한 뒤, 팀 작업에 연결하는 편입니다.
-- 완벽한 이해를 기다리기보다 **직접 구현·실험**하고, 시행착오에서 얻은 내용을 **기록·공유**하며 개선합니다.
-- 단순 정확도보다 **재현성**, **설명 가능성**, **서비스에 쓸 수 있는지**를 함께 봅니다.
-- 팀 프로젝트에서 커뮤니케이션과 문서화를 개발 품질의 일부로 생각합니다.
+- 기술 선택은 **문제 해결 적합성**을 우선하고, **재현성**·**설명 가능성**·**서비스 적용 가능성**을 함께 봅니다.
+- 구현·실험 결과는 **기록·공유**해 팀이 이어서 개선할 수 있게 합니다.
+- **커뮤니케이션**과 **문서화**를 개발 품질의 일부로 봅니다.
 
 </small>
 
@@ -168,6 +148,6 @@
 
 ![GitHub Streak](https://streak-stats.demolab.com?user=minhyeok328&theme=github-dark-blue)
 
-![Top Languages by Repo](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=minhyeok328&theme=github_dark)
+<!-- ![Top Languages by Repo](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=minhyeok328&theme=github_dark)
 
-![Profile Details](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=minhyeok328&theme=github_dark)
+![Profile Details](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=minhyeok328&theme=github_dark) -->
