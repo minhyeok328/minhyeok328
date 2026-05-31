@@ -31,7 +31,7 @@
 
 - **[codex_subagent — Codex 서브에이전트 오케스트레이션 학습](https://github.com/minhyeok328/codex_subagent)** *(개인 · 학습)*
 
-  요즘 주목받는 **에이전트 하네스(harness)**를 직접 이해해 보기 위해, [OpenAI Codex](https://developers.openai.com/codex)가 **서브에이전트를 오케스트레이션해 병렬로 작업**하도록 구축하며 "무엇이 필요한지"를 탐구하는 개인 학습 프로젝트입니다. 작업 공간·workflow·작업 카드·핸드오버 등 에이전트가 안전하게 협업하는 데 필요한 규칙과 문서 체계를 정리합니다.  
+  요즘 주목받는 **에이전트 하네스(harness)**를 직접 이해해 보기 위해, [OpenAI Codex](https://developers.openai.com/codex)가 **서브에이전트를 오케스트레이션해 병렬로 작업**하도록 **설계·구축한** 개인 프로젝트입니다. 작업 공간·workflow·작업 카드·핸드오버 등 에이전트가 안전하게 협업하는 데 필요한 규칙과 문서 체계를 정리했고, 기능을 확장하며 운영 방식을 계속 테스트하고 있습니다.  
 
   **역할:** 전 과정 1인 설계·구현 — `AGENTS.md` · 에이전트 규칙·템플릿 · 온보딩 가이드 · `check-docs.ps1` 문서 검증  
   **연결:** PICKLE·LG Home의 LLM 서비스 경험을 **에이전트 오케스트레이션·하네스 설계**로 확장하는 개인 학습
@@ -116,7 +116,7 @@
 
 <small>
 
-- **AI / Agent:** LangGraph RAG 등 서비스 AI 경험을 **에이전트 운영·오케스트레이션**으로 확장 중. Codex·subagent가 Git 프로젝트를 안전하게 다루도록 작업 규칙을 정리한 운영 셸 [codex_subagent](https://github.com/minhyeok328/codex_subagent)를 구축하고 있습니다.
+- **AI / Agent:** LangGraph RAG 등 서비스 AI 경험을 **에이전트 운영·오케스트레이션**으로 확장하는 방향입니다. Codex·subagent가 Git 프로젝트를 안전하게 다루도록 작업 규칙을 정리한 운영 셸 [codex_subagent](https://github.com/minhyeok328/codex_subagent)를 **설계·구축해 공개했고**, 기능을 확장하며 운영 방식을 다듬고 있습니다.
 - **Infra:** Docker·AWS 기반 배포와 GitHub Issue·PR·Conventional Commits 협업 워크플로를 더 깊게 다듬는 중입니다.
 
 </small>
