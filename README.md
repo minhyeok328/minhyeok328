@@ -17,22 +17,9 @@
 
 <small>
 
-- **시대의 흐름에 맞춰 AI를 알고 다루며**, RAG·에이전트·ML 등 **새로운 AI 기술을 빠르게 익혀 적용**하는 것을 지향합니다. 이를 **데이터 → 모델 → 서비스**까지 이어 **풀스택**으로 구현·확장해 가는 **주니어 개발자**입니다.
-- 문제를 정의하고 데이터로 검증한 뒤, **실제로 동작하는 서비스**까지 만드는 과정을 좋아합니다.
-- AI·데이터·웹을 잇는 **팀 프로젝트 경험**이 있으며, 상세는 아래 **Projects**를 참고해 주세요. **React**·**AWS** 등은 지금 확장 중입니다.
-
-</small>
-
----
-
-### Currently Learning
-
-<small>
-
-- **AI / Agent:** 개인 저장소 [**codex_subagent**](https://github.com/minhyeok328/codex_subagent)에서 **Codex + subagent**가 `workspaces/` 아래 Git 프로젝트를 안전하게 다루도록 **active workspace**, workflow(Default · Formal Planning · Full Delivery), task card·handover·review 규칙을 정리한 **운영 셸**을 구축·확장 중 — LangGraph RAG 등 **서비스 AI** 경험의 확장
-- **Frontend:** React 컴포넌트 설계(**Django SSR · 바닐라 JS · Tailwind** 실무 경험 위에 확장)
-- **Backend:** Django 뷰·URL·fetch API 연동 경험을 바탕으로 **DRF·서비스 레이어** 패턴 학습
-- **Infra:** Docker, **AWS** 클라우드 기초, GitHub **Issue · PR · Conventional Commits** 협업·배포
+- **LLM·RAG를 실제 동작하는 웹 서비스로 연결**하는 데 강점이 있는 주니어 개발자입니다.
+- 데이터 수집·모델링부터 API·UI까지 한 흐름으로 구현하며, 문제를 정의하고 데이터로 검증하는 과정을 좋아합니다.
+- AI·데이터·웹을 잇는 팀 프로젝트 경험이 있으며, 상세는 아래 Projects를 참고해 주세요.
 
 </small>
 
@@ -46,37 +33,37 @@
 
   차량 연비/가격/유가 API와 DB를 연동해 차량별 월간·연간 운영비(TCO)를 계산하고, Streamlit UI로 비교 가능하게 만든 프로젝트입니다.  
 
-  **역할:** API 파싱 · CSV/DB 적재 · 비용 계산 로직 · 시각화 UI  
-  **연결:** 외부 API → DB → UI까지 한 흐름으로 서비스화
+  **역할:** 연비·가격 API 연동 · CSV 파싱·가공 · DB 적재 데이터 파이프라인  
+  **연결:** 외부 API → DB까지 데이터 흐름을 맡아 서비스의 기반 구축
 
 - **[2nd_project — 신용카드 고객 이탈 예측 시스템](https://github.com/SKN26-2nd-1st/2nd_project)**  
 
   Kaggle 신용카드 데이터를 기반으로 ETL 파이프라인, FastAPI, Streamlit, MLflow, Docker 환경을 구성하고 XGBoost/LightGBM 등으로 이탈 확률을 예측한 MLOps형 프로젝트입니다.  
 
-  **역할:** ETL 파이프라인 · XGBoost 모델링 · Unknown 데이터 실험 · 결과 해석·전략 연결  
+  **역할:** ETL 데이터 파이프라인 · XGBoost Income 모델링 · Unknown 결측치 보정 실험  
   **연결:** ML 실험(MLOps) + API/대시보드로 예측 서비스 제공
 
 - **[3rd_project — PICKLE 맛집 추천 챗봇](https://github.com/SKN26-3rd-3rd/3rd_project)**  
 
   신대방삼거리 식당 데이터를 수집·가공해 SQLite + 임베딩 검색을 구축하고, LangGraph RAG 파이프라인으로 자연어 질의에 근거 기반 맛집 추천을 제공한 LLM 서비스 프로젝트입니다.  
 
-  **역할:** LLM 응답 파이프라인 · 임베딩 검색 · Streamlit UI · 평가 리포트 기반 품질 개선  
-  **연결:** 대표 **AI/LLM** 포트폴리오 — RAG 설계부터 검색 품질까지 End-to-End
+  **역할:** LangGraph RAG 파이프라인 설계 · 프롬프트 엔지니어링 · Streamlit 프론트엔드 · 평가 리포트 기반 품질 개선  
+  **연결:** 대표 AI/LLM 포트폴리오 — LangChain→LangGraph 전환으로 RAG 워크플로우 주도
 
 - **[LG Home — LG 가전 AI 추천·상담 서비스](https://github.com/SKN26-4th-1st/4th_project)**
 
-  LG 가전 5개 카테고리(TV·냉장고·세탁기·에어컨·청소기)에 대해 **필터 검색**, **LangGraph LG봇(LGneer)**, **Pinecone 사용설명서 RAG**를 묶은 **Django SSR** 웹 서비스입니다. (React 미사용 — Templates + Tailwind + 바닐라 JS)  
+  LG 가전 5개 카테고리(TV·냉장고·세탁기·에어컨·청소기)에 대해 필터 검색, LangGraph LG봇(LGneer), Pinecone 사용설명서 RAG를 묶은 Django SSR 웹 서비스입니다.  
 
-  **역할:** Figma 설계 · Django SSR + Tailwind 전 화면(검색·채팅·계정·마이페이지) · 찜·필터·챗 클라이언트 모듈 · REST API 연동 · 프론트 QA(접근성·에러 UX) 반영
+  **역할:** Figma 화면 설계 · Django + Tailwind 화면 구현(검색·상세·채팅·계정·마이페이지) · 찜·필터·챗 클라이언트 JS · REST API 연동 · 프론트 QA(접근성·에러 UX) 반영
 
-  **연결:** 팀 AI·DB·백엔드와 **UI↔API 인터페이스**를 맞춘 **웹 프론트엔드** 포트폴리오 — LLM·RAG 경험을 **실사용 웹 화면**으로 연결
+  **연결:** 팀 백엔드·AI와 UI를 맞춘 웹 프론트엔드 포트폴리오 — LLM·RAG 서비스를 실사용 웹 화면으로 연결
 
-- **[codex_subagent — Codex orchestration subagent system](https://github.com/minhyeok328/codex_subagent)** *(개인)*
+- **[codex_subagent — Codex 서브에이전트 오케스트레이션 학습](https://github.com/minhyeok328/codex_subagent)** *(개인 · 학습)*
 
-  [OpenAI Codex](https://developers.openai.com/codex)와 subagent가 **읽기·수정 경계**와 **검증 기준**을 따르도록 돕는 **운영 셸**입니다. 제품 앱이 아니라 `workspaces/<app-slug>`에 실제 Git 프로젝트를 두고, 작업마다 **active workspace**를 선언해 잘못된 경로 수정·commit을 줄입니다. 작업 크기에 맞게 **Default / Formal Planning / Full Delivery** workflow를 고르고, subagent 사용 시 **task card · handover · review**를 남기며 **구현과 Git 작업을 분리**합니다.
+  요즘 주목받는 **에이전트 하네스(harness)**를 직접 이해해 보기 위해, [OpenAI Codex](https://developers.openai.com/codex)가 **서브에이전트를 오케스트레이션해 병렬로 작업**하도록 구축하며 "무엇이 필요한지"를 탐구하는 개인 학습 프로젝트입니다. 작업 공간·workflow·작업 카드·핸드오버 등 에이전트가 안전하게 협업하는 데 필요한 규칙과 문서 체계를 정리합니다.  
 
-  **역할:** root `AGENTS.md` · `docs/agent-rules/`(workflow, workspace, subagent, review, security, commit) · `docs/templates/`(workspace profile, task card, handover, integration review) · 온보딩 가이드 · `scripts/check-docs.ps1` 문서 검증  
-  **연결:** PICKLE·LG Home의 **LLM 서비스** 경험을 **Codex 기반 에이전트 운영·경계 설계**로 확장하는 개인 실험 — 프로젝트별 profile·contract·skill은 점진 확장 예정
+  **역할:** 전 과정 1인 설계·구현 — `AGENTS.md` · 에이전트 규칙·템플릿 · 온보딩 가이드 · `check-docs.ps1` 문서 검증  
+  **연결:** PICKLE·LG Home의 LLM 서비스 경험을 **에이전트 오케스트레이션·하네스 설계**로 확장하는 개인 학습
 
 </small>
 
@@ -126,26 +113,24 @@
 
 ---
 
-### What I Value
+### Focus / Next
 
 <small>
 
-- 기술 선택은 **문제 해결 적합성**을 우선하고, **재현성**·**설명 가능성**·**서비스 적용 가능성**을 함께 봅니다.
-- 구현·실험 결과는 **기록·공유**해 팀이 이어서 개선할 수 있게 합니다.
-- **커뮤니케이션**과 **문서화**를 개발 품질의 일부로 봅니다.
+- **AI / Agent:** LangGraph RAG 등 서비스 AI 경험을 **에이전트 운영·오케스트레이션**으로 확장 중. Codex·subagent가 Git 프로젝트를 안전하게 다루도록 작업 규칙을 정리한 운영 셸 [codex_subagent](https://github.com/minhyeok328/codex_subagent)를 구축하고 있습니다.
+- **Infra:** Docker·AWS 기반 배포와 GitHub Issue·PR·Conventional Commits 협업 워크플로를 더 깊게 다듬는 중입니다.
 
 </small>
 
 ---
 
-### Collaboration
+### How I Work
 
 <small>
 
-- 막히는 부분은 문서·이슈·팀과 **빠르게 공유**해 함께 풀어가는 편입니다.
+- **Issue · Branch · Conventional Commits · PR 리뷰** 후 머지하는 Git 워크플로를 지키며, 구현·QA 결과는 `docs/`에 정리해 팀이 이어서 개선할 수 있게 합니다.
 - 데이터 / 모델 / API / UI 사이 **인터페이스를 맞추는 역할**을 팀에서 맡는 것을 좋아합니다.
-- **Issue · Branch · Conventional Commits · PR 리뷰** 후 머지하는 Git 워크플로를 지킵니다.
-- 구현·QA 결과를 `docs/`에 **정리해 공유**해 팀 의사결정과 후속 개선에 쓰이게 합니다.
+- 기술 선택은 **문제 해결 적합성**을 우선하고, **재현성·서비스 적용 가능성**을 함께 봅니다.
 
 </small>
 
