@@ -61,7 +61,7 @@
 
   LG 가전 5개 카테고리(TV·냉장고·세탁기·에어컨·청소기)에 대해 필터 검색, LangGraph LG봇(LGneer), Pinecone 사용설명서 RAG를 묶은 Django SSR 웹 서비스입니다.  
 
-  **역할:** Figma 화면 설계 · Django + Tailwind 화면 구현(검색·상세·채팅·계정·마이페이지) · 찜·필터·챗 클라이언트 JS · REST API 연동 · 프론트 QA(접근성·에러 UX) 반영
+  **역할:** Figma 화면 설계 · Django + Tailwind 화면 구현(검색·상세·채팅·계정·마이페이지) · 찜·필터·챗 클라이언트 JS · REST API 연동 · 프론트 QA(접근성·에러 UX) 반영   
   **연결:** 팀 백엔드·AI와 UI를 맞춘 웹 프론트엔드 포트폴리오 — LLM·RAG 서비스를 실사용 웹 화면으로 연결
 
 </small>
