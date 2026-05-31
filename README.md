@@ -29,6 +29,13 @@
 
 <small>
 
+- **[codex_subagent — Codex 서브에이전트 오케스트레이션 학습](https://github.com/minhyeok328/codex_subagent)** *(개인 · 학습)*
+
+  요즘 주목받는 **에이전트 하네스(harness)**를 직접 이해해 보기 위해, [OpenAI Codex](https://developers.openai.com/codex)가 **서브에이전트를 오케스트레이션해 병렬로 작업**하도록 구축하며 "무엇이 필요한지"를 탐구하는 개인 학습 프로젝트입니다. 작업 공간·workflow·작업 카드·핸드오버 등 에이전트가 안전하게 협업하는 데 필요한 규칙과 문서 체계를 정리합니다.  
+
+  **역할:** 전 과정 1인 설계·구현 — `AGENTS.md` · 에이전트 규칙·템플릿 · 온보딩 가이드 · `check-docs.ps1` 문서 검증  
+  **연결:** PICKLE·LG Home의 LLM 서비스 경험을 **에이전트 오케스트레이션·하네스 설계**로 확장하는 개인 학습
+
 - **[1st_project — TCO Insight (차량 운영/관리 비용 계산 시스템)](https://github.com/joy-riders/joy-riders)**  
 
   차량 연비/가격/유가 API와 DB를 연동해 차량별 월간·연간 운영비(TCO)를 계산하고, Streamlit UI로 비교 가능하게 만든 프로젝트입니다.  
@@ -57,13 +64,6 @@
   **역할:** Figma 화면 설계 · Django + Tailwind 화면 구현(검색·상세·채팅·계정·마이페이지) · 찜·필터·챗 클라이언트 JS · REST API 연동 · 프론트 QA(접근성·에러 UX) 반영
 
   **연결:** 팀 백엔드·AI와 UI를 맞춘 웹 프론트엔드 포트폴리오 — LLM·RAG 서비스를 실사용 웹 화면으로 연결
-
-- **[codex_subagent — Codex 서브에이전트 오케스트레이션 학습](https://github.com/minhyeok328/codex_subagent)** *(개인 · 학습)*
-
-  요즘 주목받는 **에이전트 하네스(harness)**를 직접 이해해 보기 위해, [OpenAI Codex](https://developers.openai.com/codex)가 **서브에이전트를 오케스트레이션해 병렬로 작업**하도록 구축하며 "무엇이 필요한지"를 탐구하는 개인 학습 프로젝트입니다. 작업 공간·workflow·작업 카드·핸드오버 등 에이전트가 안전하게 협업하는 데 필요한 규칙과 문서 체계를 정리합니다.  
-
-  **역할:** 전 과정 1인 설계·구현 — `AGENTS.md` · 에이전트 규칙·템플릿 · 온보딩 가이드 · `check-docs.ps1` 문서 검증  
-  **연결:** PICKLE·LG Home의 LLM 서비스 경험을 **에이전트 오케스트레이션·하네스 설계**로 확장하는 개인 학습
 
 </small>
 
