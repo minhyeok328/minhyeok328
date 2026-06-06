@@ -58,7 +58,7 @@
   **역할:** LangGraph RAG 파이프라인 설계 · 프롬프트 엔지니어링 · Streamlit 프론트엔드 · 평가 리포트 기반 품질 개선  
   **연결:** 대표 AI/LLM 포트폴리오 — LangChain→LangGraph 전환으로 RAG 워크플로우 주도
 
-- **[LG Home — LG 가전 AI 추천·상담 서비스](https://github.com/SKN26-4th-1st/4th_project)**
+- **[4th_project — LG 가전 AI 추천·상담 서비스](https://github.com/SKN26-4th-1st/4th_project)**
 
   LG 가전 5개 카테고리(TV·냉장고·세탁기·에어컨·청소기)에 대해 필터 검색, LangGraph LG봇(LGneer), Pinecone 사용설명서 RAG를 묶은 Django SSR 웹 서비스입니다.  
 
@@ -79,13 +79,12 @@
 
 #### Frontend
 
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white)
 
 #### Database
 
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
 ![Pinecone](https://img.shields.io/badge/Pinecone-000000?style=flat&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIwLjg5ZW0iIGhlaWdodD0iMWVtIiB2aWV3Qm94PSIwIDAgMjU2IDI4OCI%2BPHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0xMDguNjM0IDI1NC40MzZjOS4wOCAwIDE2LjQ0IDcuMzYxIDE2LjQ0IDE2LjQ0MnMtNy4zNiAxNi40NC0xNi40NCAxNi40NHMtMTYuNDQyLTcuMzYtMTYuNDQyLTE2LjQ0czcuMzYxLTE2LjQ0MiAxNi40NDItMTYuNDQybTkxLjIxNi0yOS45OThsMTYuMjQ3IDQuODE0TDIwMy4yIDI3Mi43OGE4LjQ3IDguNDcgMCAwIDEtOC43IDYuMDQ2bC0zLjk4My0uMjczbC0uMDk4LjA4bC00MS4zOS0yLjkwNGwxLjE1Mi0xNi45MDZsMjcuODA4IDEuODg3bC0xOC4yMDUtMjYuMjYybDEzLjkyNi05LjY1NmwxOC4yMjkgMjYuMjk1em0tMTc2LjgzNy0zMC4wOWwxNi45MDMgMS4xOTdsLTEuOTggMjcuODA0TDY0LjE1IDIwNS4xMmw5LjY3NyAxMy45MWwtMjYuMjQ4IDE4LjI0OGwyNi43OTIgNy44OTVsLTQuNzkgMTYuMjU1bC00My43MzItMTIuODg1YTguNDcgOC40NyAwIDAgMS02LjA1OC04LjcyNnpNMTMyLjE1IDE3MC42N2wzMC41MDggMzYuODMybC0xMy43NSAxMS4zODlsLTE4LjE1Ni0yMS45MmwtNS44ODYgMzMuNzAybC0xNy41ODctMy4wNzRsNS44OTItMzMuNzU1bC0yNC40NDIgMTQuNDEybC05LjA2My0xNS4zODNsNDEuMDc5LTI0LjJhOC45MyA4LjkzIDAgMCAxIDExLjQwNSAxLjk5N204NS4zNTQtMjQuNzFsMTUuMjM5LTguMjkybDIyLjIgNDAuODA1YTguNjc1IDguNjc1IDAgMCAxLTEuOTI2IDEwLjY5bC0zLjE0MSAyLjcxNGwtMzIuMDUgMjcuODkzbC0xMS4zODYtMTMuMDlsMjEuNTQ4LTE4Ljc0N2wtMzIuMDk1LTUuNzgxbDMuMDc4LTE3LjA3NGwzMi4wNzMgNS43Nzl6TTM3Ljc4MiAxMDMuMjk4bDExLjQ4IDEzLjAwOGwtMjEuMjUxIDE4Ljc0M2wzMi4xNTYgNS42MTRsLTIuOTggMTcuMDkxbC0zMi4xOTItNS42MThsMTMuODI3IDI0Ljk5OGwtMTUuMTggOC4zOThsLTIyLjU1OC00MC43NzZhOC42NzUgOC42NzUgMCAwIDEgMS44NS0xMC43MDN6bTEwOC42OTQtMTMuNDJsMzAuNDA0IDM2LjczNGwtMTMuNzUzIDExLjM4NGwtMTguMTUyLTIxLjkzbC01Ljg4NiAzMy43MTJsLTE3LjU4Ny0zLjA3NGw1Ljg3Mi0zMy42MjRsLTI0LjM0OSAxNC4yNzRsLTkuMDI3LTE1LjQwM2wzNy40LTIxLjkyOWwuMDM4LS4xNDJsLjE2NS4wMjFsMy40ODUtMi4wMzJhOC45MyA4LjkzIDAgMCAxIDExLjM5IDIuMDFtMzkuMTgtMTguMDY1bDYuNjUtMTYuMDI0bDQzLjAxMiAxNy44NWE4LjY3NSA4LjY3NSAwIDAgMSA1LjIxOCA5LjUxN2wtLjcxNiAzLjk4MmwtNy4zNDUgNDEuNzhsLTE3LjA4Ni0zLjAxbDQuOTI0LTI3Ljk2OGwtMjguNTM3IDE1Ljc3MmwtOC4zODYtMTUuMTg4bDI4LjU5MS0xNS43ODR6bS04MS45MzktMzEuNTc3bC43NCAxNy4zMzRsLTI4LjQxNCAxLjIxNGwyMS40MyAyNC40OWwtMTMuMDU2IDExLjQyNEw2Mi45NSA3MC4xNzNsLTUuMDAxIDI4bC0xNy4wNzgtMy4wNTRsOC4xODQtNDUuNzU5YTguNjc0IDguNjc0IDAgMCAxIDguMTctNy4xMzlsNC4wMi0uMThsLjA5LS4wNjV6bTU4LjEyMS0zNi45NjVsMzAuMjY3IDM2Ljk2NWwtMTMuODE0IDExLjMxbC0xNy45NjQtMjEuOTQzbC02LjA1OSAzMy42NjhsLTE3LjU3LTMuMTYybDYuMDY4LTMzLjc0M2wtMjQuNTI2IDE0LjM0bC05LjAwNy0xNS40MTVMMTUwLjQyOCAxLjIyYTguOTMgOC45MyAwIDAgMSAxMS40MSAyLjA1MiIvPjwvc3ZnPg%3D%3D)
 
@@ -117,7 +116,7 @@
 
 <small>
 
-- **AI / Agent:** LangGraph RAG 등 서비스 AI 경험을 **에이전트 운영·오케스트레이션**으로 확장하는 방향입니다. Codex·subagent가 Git 프로젝트를 안전하게 다루도록 작업 규칙을 정리한 운영 셸 [codex_subagent](https://github.com/minhyeok328/codex_subagent)를 **설계·구축해 공개했고**, 기능을 확장하며 운영 방식을 다듬고 있습니다.
+- **AI / Agent:** LangGraph RAG 등 서비스 AI 경험을 **에이전트 운영·오케스트레이션**으로 확장하는 방향입니다. *(상세: Projects — [codex_subagent](https://github.com/minhyeok328/codex_subagent))*
 - **Infra:** Docker·AWS 기반 배포와 GitHub Issue·PR·Conventional Commits 협업 워크플로를 더 깊게 다듬는 중입니다.
 
 </small>
@@ -138,8 +137,15 @@
 
 ### GitHub Stats
 
-![GitHub Streak](https://streak-stats.demolab.com?user=minhyeok328&theme=github-dark-blue)
+<table align="center">
+  <tr>
+    <td align="center" valign="top">
+      <img src="https://streak-stats.demolab.com?user=minhyeok328&theme=github-dark-blue" alt="GitHub Streak" />
+    </td>
+    <td align="center" valign="top">
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=minhyeok328&theme=github_dark" alt="Top Languages by Repo" />
+    </td>
+  </tr>
+</table>
 
-<!-- ![Top Languages by Repo](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=minhyeok328&theme=github_dark)
-
-![Profile Details](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=minhyeok328&theme=github_dark) -->
+<!-- ![Profile Details](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=minhyeok328&theme=github_dark) -->
