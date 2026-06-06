@@ -137,12 +137,12 @@
 
 ### GitHub Stats
 
-<table align="center">
+<table align="center" border="0" cellspacing="0" cellpadding="0" style="border-collapse: collapse;">
   <tr>
-    <td align="center" valign="top">
+    <td align="center" valign="top" style="border: none; padding: 0;">
       <img src="https://streak-stats.demolab.com?user=minhyeok328&theme=github-dark-blue" alt="GitHub Streak" />
     </td>
-    <td align="center" valign="top">
+    <td align="center" valign="top" style="border: none; padding: 0;">
       <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=minhyeok328&theme=github_dark" alt="Top Languages by Repo" />
     </td>
   </tr>
