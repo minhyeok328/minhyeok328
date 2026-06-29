@@ -1,71 +1,91 @@
 <p align="center">
-
-  <img src="https://capsule-render.vercel.app/api?type=rounded&color=0D1117&height=130&section=header&text=Hi%2C%20I'm%20Minhyeok&fontColor=ffffff&fontSize=30&fontFamily=Varela%20Round" />
-
+  <img src="https://capsule-render.vercel.app/api?type=rounded&color=0D1117&height=135&section=header&text=Hi%2C%20I'm%20Minhyeok&fontColor=ffffff&fontSize=32&fontFamily=Varela%20Round" alt="Hi, I'm Minhyeok" />
 </p>
 
 <p align="center">
+  <b>LLM · RAG · Web Service Developer</b><br/>
+  데이터에서 모델, API, UI까지 연결하는 주니어 개발자
+</p>
 
-  <img src="https://img.shields.io/badge/AI%20%E2%80%94%20Learn%20%26%20Adapt-111111?style=flat&logoColor=white&labelColor=111111&color=111111" />
-  <img src="https://img.shields.io/badge/Full--Stack%20Oriented-0D1117?style=flat&logoColor=white&labelColor=30363D&color=30363D" />
+<p align="center">
+  <img src="https://img.shields.io/badge/AI%20Service-0D1117?style=flat&labelColor=111111&color=30363D" alt="AI Service" />
+  <img src="https://img.shields.io/badge/RAG%20Workflow-0D1117?style=flat&labelColor=111111&color=30363D" alt="RAG Workflow" />
+  <img src="https://img.shields.io/badge/Full--Stack%20Oriented-0D1117?style=flat&labelColor=111111&color=30363D" alt="Full-Stack Oriented" />
+  <img src="https://img.shields.io/badge/Learn%20%26%20Adapt-0D1117?style=flat&labelColor=111111&color=30363D" alt="Learn and Adapt" />
+</p>
 
+<p align="center">
+  <a href="#about-me">About Me</a> ·
+  <a href="#featured-projects">Featured Projects</a> ·
+  <a href="#tech-stack">Tech Stack</a> ·
+  <a href="#how-i-work">How I Work</a>
 </p>
 
 ---
 
 ### About Me
 
-<small>
-
 - **LLM·RAG를 실제 동작하는 웹 서비스로 연결**하는 데 강점이 있는 주니어 개발자입니다.
 - 데이터 수집·모델링부터 API·UI까지 한 흐름으로 구현하며, 문제를 정의하고 데이터로 검증하는 과정을 좋아합니다.
 - AI·데이터·웹을 잇는 팀 프로젝트 경험이 있으며, 상세는 아래 Projects를 참고해 주세요.
 
-</small>
+---
+
+### Featured Projects
+
+| Project | Focus | Keywords |
+| --- | --- | --- |
+| [LG 가전 AI 추천·상담 서비스](https://github.com/SKN26-4th-1st/4th_project) | LLM·RAG를 실사용 웹 화면으로 연결 | `Django` `Tailwind` `LangGraph` `Pinecone` |
+| [PICKLE 맛집 추천 챗봇](https://github.com/SKN26-3rd-3rd/3rd_project) | 근거 기반 맛집 추천 챗봇 | `LangGraph` `RAG` `SQLite` `Streamlit` |
+| [신용카드 고객 이탈 예측 시스템](https://github.com/SKN26-2nd-1st/2nd_project) | MLOps형 이탈 예측 서비스 | `FastAPI` `MLflow` `Docker` `XGBoost` |
+| [TCO Insight](https://github.com/joy-riders/joy-riders) | 차량 운영/관리 비용 계산 | `API` `DB` `CSV` `Streamlit` |
+| [codex_subagent](https://github.com/minhyeok328/codex_subagent) | Codex 서브에이전트 오케스트레이션 학습 | `Codex` `Agent` `Workflow` `Docs` |
 
 ---
 
 ### Projects
 
-<small>
+#### [LG 가전 AI 추천·상담 서비스](https://github.com/SKN26-4th-1st/4th_project)
 
-- **[codex_subagent — Codex 서브에이전트 오케스트레이션 학습](https://github.com/minhyeok328/codex_subagent)** *(개인 · 학습)*
+LG 가전 5개 카테고리(TV·냉장고·세탁기·에어컨·청소기)에 대해 필터 검색, LangGraph LG봇(LGneer), Pinecone 사용설명서 RAG를 묶은 Django SSR 웹 서비스입니다.
 
-  요즘 주목받는 **에이전트 하네스(harness)** 를 직접 이해해 보기 위해, [OpenAI Codex](https://developers.openai.com/codex)가 **서브에이전트를 오케스트레이션해 병렬로 작업**하도록 **설계·구축한** 개인 프로젝트입니다.   
-  작업 공간·workflow·작업 카드·핸드오버 등 에이전트가 안전하게 협업하는 데 필요한 규칙과 문서 체계를 정리했고, 기능을 확장하며 운영 방식을 계속 테스트하고 있습니다.  
+**역할:** Figma 화면 설계 · Django + Tailwind 화면 구현(검색·상세·채팅·계정·마이페이지) · 찜·필터·챗 클라이언트 JS · REST API 연동 · 프론트 QA(접근성·에러 UX) 반영
 
-  **역할:** 전 과정 1인 설계·구현 — `AGENTS.md` · 에이전트 규칙·템플릿 · 온보딩 가이드 · `check-docs.ps1` 문서 검증  
-  **연결:** PICKLE·LG Home의 LLM 서비스 경험을 **에이전트 오케스트레이션·하네스 설계**로 확장하는 개인 학습
+**연결:** 팀 백엔드·AI와 UI를 맞춘 웹 프론트엔드 포트폴리오 — LLM·RAG 서비스를 실사용 웹 화면으로 연결
 
-- **[1st_project — TCO Insight (차량 운영/관리 비용 계산 시스템)](https://github.com/joy-riders/joy-riders)**  
+#### [PICKLE 맛집 추천 챗봇](https://github.com/SKN26-3rd-3rd/3rd_project)
 
-  차량 연비/가격/유가 API와 DB를 연동해 차량별 월간·연간 운영비(TCO)를 계산하고, Streamlit UI로 비교 가능하게 만든 프로젝트입니다.  
+신대방삼거리 식당 데이터를 수집·가공해 SQLite + 임베딩 검색을 구축하고, LangGraph RAG 파이프라인으로 자연어 질의에 근거 기반 맛집 추천을 제공한 LLM 서비스 프로젝트입니다.
 
-  **역할:** 연비·가격 API 연동 · CSV 파싱·가공 · DB 적재 데이터 파이프라인  
-  **연결:** 외부 API → DB까지 데이터 흐름을 맡아 서비스의 기반 구축
+**역할:** LangGraph RAG 파이프라인 설계 · 프롬프트 엔지니어링 · Streamlit 프론트엔드 · 평가 리포트 기반 품질 개선
 
-- **[2nd_project — 신용카드 고객 이탈 예측 시스템](https://github.com/SKN26-2nd-1st/2nd_project)**  
+**연결:** 대표 AI/LLM 포트폴리오 — LangChain→LangGraph 전환으로 RAG 워크플로우 주도
 
-  Kaggle 신용카드 데이터를 기반으로 ETL 파이프라인, FastAPI, Streamlit, MLflow, Docker 환경을 구성하고 XGBoost/LightGBM 등으로 이탈 확률을 예측한 MLOps형 프로젝트입니다.  
+#### [신용카드 고객 이탈 예측 시스템](https://github.com/SKN26-2nd-1st/2nd_project)
 
-  **역할:** ETL 데이터 파이프라인 · XGBoost Income 모델링 · Unknown 결측치 보정 실험  
-  **연결:** ML 실험(MLOps) + API/대시보드로 예측 서비스 제공
+Kaggle 신용카드 데이터를 기반으로 ETL 파이프라인, FastAPI, Streamlit, MLflow, Docker 환경을 구성하고 XGBoost/LightGBM 등으로 이탈 확률을 예측한 MLOps형 프로젝트입니다.
 
-- **[3rd_project — PICKLE 맛집 추천 챗봇](https://github.com/SKN26-3rd-3rd/3rd_project)**  
+**역할:** ETL 데이터 파이프라인 · XGBoost Income 모델링 · Unknown 결측치 보정 실험
 
-  신대방삼거리 식당 데이터를 수집·가공해 SQLite + 임베딩 검색을 구축하고, LangGraph RAG 파이프라인으로 자연어 질의에 근거 기반 맛집 추천을 제공한 LLM 서비스 프로젝트입니다.  
+**연결:** ML 실험(MLOps) + API/대시보드로 예측 서비스 제공
 
-  **역할:** LangGraph RAG 파이프라인 설계 · 프롬프트 엔지니어링 · Streamlit 프론트엔드 · 평가 리포트 기반 품질 개선  
-  **연결:** 대표 AI/LLM 포트폴리오 — LangChain→LangGraph 전환으로 RAG 워크플로우 주도
+#### [TCO Insight](https://github.com/joy-riders/joy-riders)
 
-- **[4th_project — LG 가전 AI 추천·상담 서비스](https://github.com/SKN26-4th-1st/4th_project)**
+차량 연비/가격/유가 API와 DB를 연동해 차량별 월간·연간 운영비(TCO)를 계산하고, Streamlit UI로 비교 가능하게 만든 프로젝트입니다.
 
-  LG 가전 5개 카테고리(TV·냉장고·세탁기·에어컨·청소기)에 대해 필터 검색, LangGraph LG봇(LGneer), Pinecone 사용설명서 RAG를 묶은 Django SSR 웹 서비스입니다.  
+**역할:** 연비·가격 API 연동 · CSV 파싱·가공 · DB 적재 데이터 파이프라인
 
-  **역할:** Figma 화면 설계 · Django + Tailwind 화면 구현(검색·상세·채팅·계정·마이페이지) · 찜·필터·챗 클라이언트 JS · REST API 연동 · 프론트 QA(접근성·에러 UX) 반영   
-  **연결:** 팀 백엔드·AI와 UI를 맞춘 웹 프론트엔드 포트폴리오 — LLM·RAG 서비스를 실사용 웹 화면으로 연결
+**연결:** 외부 API → DB까지 데이터 흐름을 맡아 서비스의 기반 구축
 
-</small>
+#### [codex_subagent](https://github.com/minhyeok328/codex_subagent)
+
+요즘 주목받는 **에이전트 하네스(harness)** 를 직접 이해해 보기 위해, [OpenAI Codex](https://developers.openai.com/codex)가 **서브에이전트를 오케스트레이션해 병렬로 작업**하도록 **설계·구축한** 개인 프로젝트입니다.
+
+작업 공간·workflow·작업 카드·핸드오버 등 에이전트가 안전하게 협업하는 데 필요한 규칙과 문서 체계를 정리했고, 기능을 확장하며 운영 방식을 계속 테스트하고 있습니다.
+
+**역할:** 전 과정 1인 설계·구현 — `AGENTS.md` · 에이전트 규칙·템플릿 · 온보딩 가이드 · `check-docs.ps1` 문서 검증
+
+**연결:** PICKLE·LG Home의 LLM 서비스 경험을 **에이전트 오케스트레이션·하네스 설계**로 확장하는 개인 학습
 
 ---
 
@@ -114,24 +134,16 @@
 
 ### Focus / Next
 
-<small>
-
 - **AI / Agent:** LangGraph RAG 등 서비스 AI 경험을 **에이전트 운영·오케스트레이션**으로 확장하는 방향입니다. *(상세: Projects — [codex_subagent](https://github.com/minhyeok328/codex_subagent))*
 - **Infra:** Docker·AWS 기반 배포와 GitHub Issue·PR·Conventional Commits 협업 워크플로를 더 깊게 다듬는 중입니다.
-
-</small>
 
 ---
 
 ### How I Work
 
-<small>
-
 - **Issue · Branch · Conventional Commits · PR 리뷰** 후 머지하는 Git 워크플로를 지키며, 구현·QA 결과는 `docs/`에 정리해 팀이 이어서 개선할 수 있게 합니다.
 - 데이터 / 모델 / API / UI 사이 **인터페이스를 맞추는 역할**을 팀에서 맡는 것을 좋아합니다.
 - 기술 선택은 **문제 해결 적합성**을 우선하고, **재현성·서비스 적용 가능성**을 함께 봅니다.
-
-</small>
 
 ---
 
