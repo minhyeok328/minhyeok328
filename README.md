@@ -56,6 +56,8 @@ HumouR is a team-built AI-assisted hiring operations platform connecting company
 
 ## Project Journey
 
+> 아래 5개 프로젝트는 모두 팀 프로젝트이며, `My Contribution`에는 제가 직접 맡은 범위만 적었습니다.
+
 | Stage | Project | My Contribution | Growth |
 | --- | --- | --- |
 | **01 · Data Integration** | [차량 운영·관리 비용 계산 시스템](https://github.com/minhyeok328/1st_project) | 공공 연비 API 수집·JSON 파싱, CSV 로드·파싱, 비용 모델과 데이터 흐름 문서화 | 외부 데이터를 서비스 입력값으로 연결 |
