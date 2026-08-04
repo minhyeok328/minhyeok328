@@ -21,11 +21,11 @@
 
 ## About Me
 
-I build LLM features that reach real user workflows rather than stopping at a model demonstration.
+LLM 기능이 모델 데모에 머무르지 않고 실제 사용자의 업무 흐름에 닿도록 구현합니다.
 
-My project history spans data collection and preparation, model experimentation, backend APIs, and user-facing UI.
+데이터 수집·전처리, 모델 실험, 백엔드 API, 사용자 UI까지 이어지는 프로젝트 경험을 쌓았습니다.
 
-My strongest direct implementation areas are LangGraph/RAG pipelines and frontend-to-service integration. In the recent HumouR project, I was the frontend CODEOWNER for application structure, API contracts, authentication and session boundaries, asynchronous state, QA, and app-level security hardening.
+특히 LangGraph·RAG 파이프라인과 프론트엔드·서비스 통합을 직접 구현해 왔습니다. 최근 HumouR에서는 프론트엔드 CODEOWNER로서 애플리케이션 구조, API 계약, 인증·세션 경계, 비동기 상태, QA와 애플리케이션 수준의 보안 강화를 담당했습니다.
 
 ### Core Strengths
 
@@ -39,7 +39,7 @@ My strongest direct implementation areas are LangGraph/RAG pipelines and fronten
 
 ### [HumouR](https://github.com/minhyeok328/Final_project)
 
-HumouR is a team-built AI-assisted hiring operations platform connecting company information, job descriptions, evaluation checklists, resume analysis, reports, interview questions, restricted sharing, and document chat. The repository includes React, Django, Celery, LangGraph, Pinecone, RunPod, and AWS deployment automation; it is not presented as a currently operating public production service.
+HumouR는 기업 정보, 채용 공고, 평가 체크리스트, 지원서 분석, 리포트, 면접 질문, 제한 공유와 문서 챗을 하나의 흐름으로 연결한 AI 기반 채용 운영 팀 프로젝트입니다. 저장소에는 React, Django, Celery, LangGraph, Pinecone, RunPod와 AWS 배포 자동화 구성이 포함되어 있으며, 현재 공개 운영 중인 프로덕션 서비스로 소개하는 것은 아닙니다.
 
 - 프론트엔드 CODEOWNER로서 React·TypeScript 애플리케이션의 구조·통합·품질 기준 주도
 - Axios·CSRF 요청 계층부터 도메인 API Client, Zod 계약, Adapter, TanStack Query로 이어지는 데이터 흐름 설계
@@ -59,18 +59,18 @@ HumouR is a team-built AI-assisted hiring operations platform connecting company
 > 아래 5개 프로젝트는 모두 팀 프로젝트이며, `My Contribution`에는 제가 직접 맡은 범위만 적었습니다.
 
 | Stage | Project | My Contribution | Growth |
-| --- | --- | --- |
+| --- | --- | --- | --- |
 | **01 · Data Integration** | [차량 운영·관리 비용 계산 시스템](https://github.com/minhyeok328/1st_project) | 공공 연비 API 수집·JSON 파싱, CSV 로드·파싱, 비용 모델과 데이터 흐름 문서화 | 외부 데이터를 서비스 입력값으로 연결 |
 | **02 · ML Experimentation** | [신용카드 고객 이탈 분석](https://github.com/minhyeok328/2nd_project) | 전처리 탐색 노트북, Unknown 소득 보완을 위한 XGBoost 그룹 분류 실험, EDA 시각화·Streamlit 프로토타입 | 모델 실험의 한계를 확인하고 사용자에게 전달할 분석으로 확장 |
 | **03 · LLM & RAG** | [PICKLE 맛집 추천 챗봇](https://github.com/minhyeok328/3rd_project) | LangGraph 파이프라인, OpenAI strict JSON Schema 슬롯 추출, SQLite 임베딩 검색 커넥터 연동, Streamlit UI, 3단계 내부 평가 | LLM 응답을 실제 데이터와 근거에 연결 |
 | **04 · Web Integration** | [LG Home AI 가전 상담](https://github.com/minhyeok328/4th_project) | Django·Tailwind 기반 주요 화면, 검색·필터·찜·채팅 API 연동, 오류·로딩·모바일 UX 개선 | LLM 기능을 계정·대화방 기반 Django 애플리케이션의 사용자 흐름에 통합 |
 | **05 · AI Full-Stack** | [HumouR](https://github.com/minhyeok328/Final_project) | 프론트엔드 CODEOWNER, API 계약·인증·상태·테스트·QA 구조화 | 인증·비동기 상태·오류·검증을 다루는 애플리케이션 구조로 확장 |
 
-PICKLE's internally generated 50-case evaluation improved pass rate from 46% to 82% and target inclusion from 52% to 96%. This is an internal automated evaluation, not production accuracy.
+내부에서 생성한 50개 케이스 자동 평가에서 통과율이 46%에서 82%로, 타깃 포함률이 52%에서 96%로 개선되었습니다. 이는 프로덕션 정확도가 아닌 내부 자동 평가 결과입니다.
 
 ## Tech Stack
 
-`Primary` means repeatedly implemented and verified core tools. `Project experience` means earlier direct use or interface-boundary integration.
+`Primary`는 반복적으로 직접 구현하고 검증한 핵심 기술이며, `Project experience`는 이전 프로젝트에서 직접 사용했거나 인터페이스 경계에서 연동한 기술입니다.
 
 | Area | Primary | Project experience |
 | --- | --- | --- |
