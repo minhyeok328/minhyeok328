@@ -57,10 +57,6 @@ flowchart LR
 > ### [HumouR](https://github.com/minhyeok328/Final_project) · AI 기반 채용 운영 서비스
 >
 > 기업 정보, 채용 공고, 평가 체크리스트, 지원서 분석, 분석 리포트, 면접 질문, 외부 제한 공유와 문서 챗을 하나의 업무 흐름으로 연결한 팀 프로젝트입니다.
->
-> `React 19` · `TypeScript` · `TanStack Query` · `Zod`
->
-> 현재 공개 운영 중인 프로덕션 서비스로 소개하는 것은 아닙니다.
 
 **역할:** React 19·TypeScript 프론트엔드의 애플리케이션 구조와 서비스 통합을 담당했습니다.
 
@@ -76,8 +72,6 @@ flowchart LR
 
 ## Project Journey
 
-> 아래 5개 프로젝트는 모두 팀 프로젝트이며, `직접 기여`에는 제가 맡아 구현하거나 검증한 범위만 적었습니다.
-
 | Stage | Project | 직접 기여 | 근거와 결과 |
 | --- | --- | --- | --- |
 | **01 · Data Integration** | [TCO Insight](https://github.com/minhyeok328/1st_project)<br>차량 운영비 기준선 계산 | 공공 연비 API JSON 정규화, CSV 로드·파싱, 비용 모델과 데이터 흐름 문서화 | 외부 데이터 → DB·서비스 입력값 |
@@ -89,8 +83,6 @@ flowchart LR
 > **범위 안내:** TCO Insight는 차량 구매비·감가상각·보험·금융비용 전체가 아닌 비교용 운영비 기준선을 계산합니다. PICKLE 수치는 동일한 데이터베이스를 기준으로 고정 질의 20개와 임베딩 질의 30개를 세 차례 반복 평가한 내부 자동 평가 결과이며 프로덕션 정확도가 아닙니다. LG Home AI는 공식 LG 서비스가 아닌 학습용 팀 프로젝트입니다.
 
 ## Tech Stack
-
-기술을 넓게 나열하기보다 직접 구현한 영역과 팀 시스템을 연동한 영역을 구분했습니다.
 
 - **Frontend 핵심:** `React` · `TypeScript` · `JavaScript` · `Axios` · `TanStack Query` · `Zod`
 - **UI 구현:** `Figma` · `Tailwind CSS` · `Ant Design` · `Django Templates` · `Streamlit`
