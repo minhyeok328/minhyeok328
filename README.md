@@ -1,12 +1,8 @@
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rounded&color=0D1117&height=100&section=header&text=Hi%2C%20I'm%20Minhyeok&fontColor=ffffff&fontSize=28&fontFamily=Varela%20Round" alt="Hi, I'm Minhyeok" />
-</p>
-
-<h1 align="center">AI 기능을 사용자 경험으로 연결하는<br>React · TypeScript 프론트엔드 개발자</h1>
+<h1 align="center">Full-Stack Developer</h1>
 
 <p align="center">
-  <strong>HumouR에서 React·TypeScript 프론트엔드 구조와 API 계약·인증·비동기 상태 흐름을 담당했습니다.</strong><br>
-  PICKLE에서 LangGraph·RAG를 직접 구현하고, Django·FastAPI 기반 시스템을 사용자 화면까지 연결했습니다.
+  <strong>데이터와 모델이 API를 거쳐 사용자 경험으로 이어지는 전체 흐름을 연결합니다.</strong><br>
+  <code>Public API</code> → <code>ML / LLM</code> → <code>Django / FastAPI</code> → <code>React / TypeScript</code>
 </p>
 
 <p align="center">
@@ -14,34 +10,57 @@
   <a href="mailto:tjalsgur328@gmail.com">Email</a>
 </p>
 
-<p align="center">
-  <a href="#about-me">About Me</a> ·
-  <a href="#core-competencies">Core Competencies</a> ·
-  <a href="#flagship-project">Flagship Project</a> ·
-  <a href="#project-journey">Project Journey</a> ·
-  <a href="#tech-stack">Tech Stack</a> ·
-  <a href="#how-i-build">How I Build</a>
-</p>
-
 ---
+
+## System Flow
+
+```mermaid
+flowchart LR
+  A["DATA<br/>Public API · CSV · DB"] --> B["ML / LLM<br/>XGBoost · LangGraph · RAG"]
+  B --> C["BACKEND / API<br/>Django · FastAPI"]
+  C --> D["UI<br/>React · TypeScript"]
+```
 
 ## About Me
 
-백엔드의 복잡한 로직에 관심을 갖고 개발을 시작했지만, 팀 프로젝트에서 사용자 피드백이 화면의 개선으로 이어지는 과정에 매력을 느껴 프론트엔드를 중심 역량으로 선택했습니다.
+다섯 차례의 팀 프로젝트를 통해 공공 API·CSV 데이터 수집과 정규화, 머신러닝 실험, LangGraph·RAG 파이프라인, Django·FastAPI 기반 시스템 연동, React·TypeScript UI 구현까지 AI 서비스의 전체 흐름을 경험했습니다.
 
-다섯 차례의 팀 프로젝트를 통해 데이터 수집·전처리, 머신러닝 실험, LangGraph·RAG, Django·FastAPI 기반 시스템과 프론트엔드의 연결 과정을 경험했습니다. 이를 바탕으로 백엔드와 AI 시스템의 동작을 이해하면서 복잡한 기능을 사용자가 신뢰할 수 있는 화면과 흐름으로 구현합니다.
+프로젝트마다 직접 맡은 범위는 달랐지만, 데이터와 모델 결과가 API와 상태 관리를 거쳐 사용자 화면에 도달하는 과정을 구현하고 연결해 왔습니다. 프론트엔드·백엔드·LLM을 분리된 기술로만 보지 않고, 각 영역의 경계를 이해하며 필요한 기술을 하나의 서비스 흐름으로 연결합니다.
 
 ## Core Competencies
 
-- **프론트엔드 구조 설계:** React·TypeScript 애플리케이션의 데이터 경계, 서버 상태, 인증·비동기 흐름을 구조화합니다.
-- **AI 서비스 통합:** LangGraph·RAG를 직접 구현한 경험을 바탕으로 LLM 결과와 Django·FastAPI 기반 API를 사용자 화면까지 연결합니다.
-- **신뢰성과 협업 기반:** 런타임 응답 검증, 오류·요청 취소 처리, 테스트·QA와 인터페이스 문서화를 함께 설계합니다.
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <strong>01 · Service Flow</strong><br><br>
+      외부 데이터 수집과 전처리부터 ML·LLM 결과, 백엔드 API, 사용자 UI까지 이어지는 흐름을 이해하고 연결합니다.
+    </td>
+    <td width="50%" valign="top">
+      <strong>02 · Full-Stack Web</strong><br><br>
+      React·TypeScript와 Django Templates로 UI를 구현하고, Django ORM과 Django·FastAPI 기반 API를 연동합니다.
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <strong>03 · LLM &amp; Data</strong><br><br>
+      LangGraph·RAG와 구조화 출력을 구현하고, pandas·scikit-learn·XGBoost로 데이터와 모델 결과를 서비스 기능에 연결합니다.
+    </td>
+    <td width="50%" valign="top">
+      <strong>04 · Reliability</strong><br><br>
+      런타임 응답 검증, 인증·비동기 상태, 오류·요청 취소, 테스트·QA와 인터페이스 문서화를 함께 다룹니다.
+    </td>
+  </tr>
+</table>
 
 ## Flagship Project
 
-### [HumouR](https://github.com/minhyeok328/Final_project) · AI 기반 채용 운영 서비스
-
-기업 정보, 채용 공고, 평가 체크리스트, 지원서 분석, 분석 리포트, 면접 질문, 외부 제한 공유와 문서 챗을 하나의 업무 흐름으로 연결한 팀 프로젝트입니다. 현재 공개 운영 중인 프로덕션 서비스로 소개하는 것은 아닙니다.
+> ### [HumouR](https://github.com/minhyeok328/Final_project) · AI 기반 채용 운영 서비스
+>
+> 기업 정보, 채용 공고, 평가 체크리스트, 지원서 분석, 분석 리포트, 면접 질문, 외부 제한 공유와 문서 챗을 하나의 업무 흐름으로 연결한 팀 프로젝트입니다.
+>
+> `React 19` · `TypeScript` · `TanStack Query` · `Zod`
+>
+> 현재 공개 운영 중인 프로덕션 서비스로 소개하는 것은 아닙니다.
 
 **역할:** React 19·TypeScript 프론트엔드의 애플리케이션 구조와 서비스 통합을 담당했습니다.
 
