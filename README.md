@@ -99,7 +99,7 @@ flowchart LR
 
 ## Other Work
 
-- [codex_subagent](https://github.com/minhyeok328/codex_subagent): Codex 서브에이전트 오케스트레이션, 재사용 가능한 규칙과 문서 검증 방식을 탐구한 저장소입니다.
+- [oh_my_agents_v2](https://github.com/minhyeok328/oh_my_agents_v2): Codex 서브에이전트 오케스트레이션, 재사용 가능한 규칙과 문서 검증 방식을 탐구한 저장소입니다.
 
 ## GitHub Activity
 
