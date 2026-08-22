@@ -59,23 +59,23 @@
 
 <table width="100%">
   <tr>
-    <td width="50%" align="left" valign="top">
+    <td width="420" align="left" valign="top">
       <strong>사용자 흐름·인터페이스</strong><br><br>
       <img src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square&amp;logo=figma&amp;logoColor=white" alt="Figma" />
     </td>
-    <td width="50%" align="left" valign="top">
+    <td width="420" align="left" valign="top">
       <strong>계획·구현·테스트</strong><br><br>
       <img src="https://custom-icon-badges.demolab.com/badge/Codex-000000?style=flat-square&amp;logo=openai&amp;logoColor=white" alt="Codex" />
       <img src="https://img.shields.io/badge/Claude_Code-D97757?style=flat-square&amp;logo=claude&amp;logoColor=white" alt="Claude Code" />
     </td>
   </tr>
   <tr>
-    <td width="50%" align="left" valign="top">
+    <td width="420" align="left" valign="top">
       <strong>탐색·수정·리뷰·문서화</strong><br><br>
       <img src="https://img.shields.io/badge/Cursor-000000?style=flat-square&amp;logo=cursor&amp;logoColor=white" alt="Cursor" />
       <img src="https://custom-icon-badges.demolab.com/badge/VS_Code-007ACC?style=flat-square&amp;logo=visualstudiocode&amp;logoColor=white" alt="Visual Studio Code" />
     </td>
-    <td width="50%" align="left" valign="top">
+    <td width="420" align="left" valign="top">
       <strong>설계 판단·결과 검증</strong><br><br>
       <img src="https://custom-icon-badges.demolab.com/badge/My_Decision-238636?style=flat-square&amp;logo=check-circle&amp;logoSource=feather&amp;logoColor=white" alt="My Decision" />
     </td>
@@ -86,14 +86,14 @@
 
 <table width="100%">
   <tr>
-    <td width="50%" valign="top">
+    <td width="420" valign="top">
       <strong>Frontend</strong><br><br>
       <img src="https://img.shields.io/badge/React-20232A?style=flat-square&amp;logo=react&amp;logoColor=61DAFB" alt="React" />
       <img src="https://img.shields.io/badge/Axios-5A29E4?style=flat-square&amp;logo=axios&amp;logoColor=white" alt="Axios" />
       <img src="https://img.shields.io/badge/TanStack_Query-FF4154?style=flat-square&amp;logo=reactquery&amp;logoColor=white" alt="TanStack Query" />
       <img src="https://img.shields.io/badge/Zod-3E67B1?style=flat-square&amp;logo=zod&amp;logoColor=white" alt="Zod" />
     </td>
-    <td width="50%" valign="top">
+    <td width="420" valign="top">
       <strong>Backend</strong><br><br>
       <img src="https://img.shields.io/badge/Django-092E20?style=flat-square&amp;logo=django&amp;logoColor=white" alt="Django" />
       <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&amp;logo=fastapi&amp;logoColor=white" alt="FastAPI" />
@@ -101,14 +101,14 @@
     </td>
   </tr>
   <tr>
-    <td width="50%" valign="top">
+    <td width="420" valign="top">
       <strong>AI &amp; LLM</strong><br><br>
       <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&amp;logo=langgraph&amp;logoColor=white" alt="LangGraph" />
       <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&amp;logo=langchain&amp;logoColor=white" alt="LangChain" />
       <img src="https://custom-icon-badges.demolab.com/badge/RAG-5B5BD6?style=flat-square&amp;logo=search&amp;logoSource=feather&amp;logoColor=white" alt="Retrieval-Augmented Generation" />
       <img src="https://custom-icon-badges.demolab.com/badge/Pinecone-000000?style=flat-square&amp;logo=pinecone&amp;logoColor=white" alt="Pinecone" />
     </td>
-    <td width="50%" valign="top">
+    <td width="420" valign="top">
       <strong>Data &amp; ML</strong><br><br>
       <img src="https://img.shields.io/badge/pandas-150458?style=flat-square&amp;logo=pandas&amp;logoColor=white" alt="pandas" />
       <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&amp;logo=scikitlearn&amp;logoColor=white" alt="scikit-learn" />
@@ -116,12 +116,12 @@
     </td>
   </tr>
   <tr>
-    <td width="50%" valign="top">
+    <td width="420" valign="top">
       <strong>Database</strong><br><br>
       <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&amp;logo=mysql&amp;logoColor=white" alt="MySQL" />
       <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&amp;logo=sqlite&amp;logoColor=white" alt="SQLite" />
     </td>
-    <td width="50%" valign="top">
+    <td width="420" valign="top">
       <strong>Test &amp; Quality</strong><br><br>
       <img src="https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&amp;logo=vitest&amp;logoColor=white" alt="Vitest" />
       <img src="https://img.shields.io/badge/Testing_Library-E33332?style=flat-square&amp;logo=testinglibrary&amp;logoColor=white" alt="Testing Library" />
@@ -130,7 +130,7 @@
     </td>
   </tr>
   <tr>
-    <td colspan="2" valign="top">
+    <td width="840" colspan="2" valign="top">
       <strong>DevOps &amp; Collaboration</strong><br><br>
       <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&amp;logo=docker&amp;logoColor=white" alt="Docker" />
       <img src="https://custom-icon-badges.demolab.com/badge/AWS-232F3E?style=flat-square&amp;logo=aws&amp;logoColor=white" alt="Amazon Web Services" />
@@ -143,12 +143,8 @@
 
 ## Explore My Work
 
-<table width="100%">
-  <tr>
-    <td align="center">
-      <strong>프로젝트에서 해결한 문제와 맡은 역할이 궁금하다면</strong><br><br>
-      구현 과정과 검증 결과를 포트폴리오에 정리했습니다.<br><br>
-      <a href="https://minhyeok328.github.io/"><strong>포트폴리오 보러 가기 →</strong></a>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <strong>프로젝트에서 해결한 문제와 맡은 역할이 궁금하다면</strong><br><br>
+  구현 과정과 검증 결과를 포트폴리오에 정리했습니다.<br><br>
+  <a href="https://minhyeok328.github.io/"><strong>포트폴리오 보러 가기 →</strong></a>
+</p>
