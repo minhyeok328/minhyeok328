@@ -1,112 +1,154 @@
 <h1 align="center">AI Full-Stack Developer</h1>
 
 <p align="center">
-  <strong>React·TypeScript를 중심으로 데이터·AI·API·UI를 연결해 실제 사용자 업무 흐름을 완성합니다.</strong><br>
-  <code>Public API</code> → <code>ML / LLM</code> → <code>Django / FastAPI</code> → <code>React / TypeScript</code>
+  <strong>연결과 기준을 통해 함께 결과를 완성합니다.</strong>
 </p>
 
 <p align="center">
-  <a href="https://minhyeok328.github.io/">Portfolio</a> ·
-  <a href="mailto:tjalsgur328@gmail.com">Email</a>
+  React·TypeScript를 중심으로 데이터·API·AI 파이프라인의 책임과 연결 지점을 이해하고,<br>
+  사용자가 이해하고 신뢰할 수 있는 흐름으로 구현합니다.
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Service_Flow-0D1117?style=flat-square" alt="Service Flow" />
+  <img src="https://img.shields.io/badge/Shared_Standards-1F6FEB?style=flat-square" alt="Shared Standards" />
+  <img src="https://img.shields.io/badge/AI--Native_Workflow-7C3AED?style=flat-square" alt="AI-Native Workflow" />
+  <img src="https://img.shields.io/badge/Verified_Delivery-238636?style=flat-square" alt="Verified Delivery" />
+</p>
+
+<p align="center">
+  <a href="https://minhyeok328.github.io/" title="Portfolio"><img src="https://api.iconify.design/mdi:web.svg?color=%2358A6FF" width="24" height="24" alt="Portfolio" /></a>
+  &nbsp;&nbsp;
+  <a href="https://blog.naver.com/m______yuk" title="Naver Blog"><img src="https://cdn.simpleicons.org/naver/03C75A" width="24" height="24" alt="Naver Blog" /></a>
+  &nbsp;&nbsp;
+  <a href="mailto:tjalsgur328@gmail.com" title="Email"><img src="https://cdn.simpleicons.org/gmail/EA4335" width="24" height="24" alt="Email" /></a>
 </p>
 
 ---
 
-## System Flow
+## How I Work
 
-```mermaid
-flowchart LR
-  A["DATA<br/>Public API · CSV · DB"] --> B["ML / LLM<br/>XGBoost · LangGraph · RAG"]
-  B --> C["BACKEND / API<br/>Django · FastAPI"]
-  C --> D["UI<br/>React · TypeScript"]
-```
-
-## About Me
-
-React·TypeScript 기반 사용자 경험을 중심으로 Django·FastAPI 기반 API와 LangGraph·RAG 결과를 사용자 화면까지 연결해 왔습니다. 모델 기능이 데모에 머무르지 않고 사용자가 이해하고 신뢰할 수 있는 업무 흐름으로 이어지도록 구현합니다.
-
-구현 전 사용자 흐름, 데이터 구조, API 인터페이스, 역할 범위와 완료 기준을 먼저 정리합니다. 코드·문서·화면 구조를 함께 동기화해 서로 다른 영역의 팀원이 같은 기준으로 판단하고, 변경 과정의 중복 작업과 재작업을 줄입니다.
-
-## Core Competencies
-
-<table>
+<table width="100%">
   <tr>
     <td width="50%" valign="top">
-      <strong>01 · Service Flow</strong><br><br>
-      외부 데이터 수집과 전처리부터 ML·LLM 결과, 백엔드 API, 사용자 UI까지 이어지는 흐름을 이해하고 연결합니다.
+      <strong>01 · 전체 흐름을 먼저 봅니다</strong><br><br>
+      데이터·API·AI·화면이 사용자의 행동으로 이어지는 전체 흐름을 살피고, 각 영역의 책임과 연결 지점을 맞춰 구현합니다.
     </td>
     <td width="50%" valign="top">
-      <strong>02 · Full-Stack Web</strong><br><br>
-      React·TypeScript와 Django Templates로 UI를 구현하고, Django ORM과 Django·FastAPI 기반 API를 연동합니다.
+      <strong>02 · 공통 기준을 함께 맞춥니다</strong><br><br>
+      구현 전에 사용자 흐름·API·상태 처리와 역할 범위·완료 기준을 구체화하고, 변경 사항은 문서와 화면 구조에도 반영합니다.
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <strong>03 · LLM &amp; Data</strong><br><br>
-      LangGraph·RAG와 구조화 출력을 구현하고, pandas·scikit-learn·XGBoost로 데이터와 모델 결과를 서비스 기능에 연결합니다.
+      <strong>03 · 작은 가설로 검증합니다</strong><br><br>
+      낯선 문제는 작은 단계와 가설로 검증하고, 해결 뒤에는 직접 다시 구현해 동작 원리를 확인합니다.
     </td>
     <td width="50%" valign="top">
-      <strong>04 · Reliability</strong><br><br>
-      런타임 응답 검증, 인증·비동기 상태, 오류·요청 취소, 테스트·QA와 인터페이스 문서화를 함께 다룹니다.
+      <strong>04 · 문제를 투명하게 공유합니다</strong><br><br>
+      막히면 맥락·시도·예상과 실제의 차이를 공유하고, 필요하면 역할과 범위를 다시 맞춰 공동의 결과를 완성합니다.
     </td>
   </tr>
 </table>
 
-## Flagship Project
+## AI-Native Workflow
 
-> ### [HumouR](https://github.com/minhyeok328/Final_project) · AI 기반 채용 운영 서비스
->
-> 기업 정보, 채용 공고, 평가 체크리스트, 지원서 분석, 분석 리포트, 면접 질문, 외부 제한 공유와 문서 챗을 하나의 업무 흐름으로 연결한 팀 프로젝트입니다.
+<p align="center">
+  <strong>AI를 개발 과정에 활용하되, 설계 판단과 최종 결과는 직접 책임집니다.</strong>
+</p>
 
-**역할:** React 19·TypeScript 프론트엔드의 애플리케이션 구조와 서비스 통합을 담당했습니다.
-
-| 기여 경계 | 기술과 범위 |
-| --- | --- |
-| **직접 구현·검증** | React 19 · TypeScript · Axios · TanStack Query · Zod · Ant Design · Vitest · MSW · Playwright |
-| **팀 시스템 연동** | Django API · Celery 비동기 상태 · LangGraph/Pinecone 분석 결과 · RunPod/AWS 배포 구성 |
-
-- **구조와 계약:** Axios·CSRF 공통 요청 계층부터 도메인 API Client, Zod 응답 검증, Adapter, TanStack Query로 이어지는 데이터 경계를 설계했습니다.
-- **안정적인 사용자 흐름:** 일반 계정과 제한 API Key 세션의 권한·캐시를 격리하고, 인증 만료·요청 취소·오래된 응답·오류·캐시 수명주기를 함께 처리했습니다.
-- **공통 구조를 통한 확장:** 주요 사용자 동선과 공통 화면 구조·구성요소를 먼저 정리해, 추가 페이지가 필요할 때 기존 기준을 활용하여 큰 재작업 없이 확장했습니다.
-- **통합과 검증:** JD·지원서·분석 리포트·면접 질문·외부 공유·문서 챗의 화면과 API 흐름을 통합하고, 프론트엔드 테스트·QA 및 코드·API 문서 정합성 관리에 기여했습니다.
-- **팀 전체 검증 자산:** 팀 저장소에는 테스트 파일 53개와 검증 스크립트 16개가 포함되어 있으며, 이 중 프론트엔드 테스트 체계의 구축·확장에 기여했습니다.
-
-## Project Journey
-
-| Stage | Project | 직접 기여 | 근거와 결과 |
-| --- | --- | --- | --- |
-| **01 · Data Integration** | [TCO Insight](https://github.com/minhyeok328/1st_project)<br>차량 운영비 기준선 계산 | 공공 연비 API JSON 정규화, CSV 로드·파싱, 비용 모델과 데이터 흐름 문서화 | 외부 데이터 → DB·서비스 입력값 |
-| **02 · ML Experimentation** | [신용카드 고객 이탈 분석](https://github.com/minhyeok328/2nd_project) | 전처리 탐색 노트북, Unknown 소득 범주 보완을 위한 XGBoost 분류 실험, EDA·Streamlit 화면 | 다중 분류 한계 → Low/High 이진 문제 재정의 |
-| **03 · LLM & RAG** | [PICKLE 맛집 추천 챗봇](https://github.com/minhyeok328/3rd_project) | LangGraph 상태 그래프, OpenAI strict JSON Schema 슬롯 추출, SQLite 검색 연동, Streamlit UI, 내부 평가 | route·payload·target·answer·retrieval 전체 통과율 46%→82%<br>후보 내 타깃 포함률 52%→96% |
-| **04 · Web Integration** | [LG Home AI 가전 상담](https://github.com/minhyeok328/4th_project) | Figma 사용자 흐름, Django SSR 화면, 검색·필터 상태, 찜·채팅 통신, 안전한 AI 응답 렌더링과 모바일 UX | 847개 가전의 검색·상세·AI 상담·RAG 흐름 통합 |
-| **05 · Frontend Flagship** | [HumouR](https://github.com/minhyeok328/Final_project) | React·TypeScript 프론트엔드 구조, API 계약·인증·세션·비동기 상태·테스트·QA 구조화 | 인증·비동기·오류·검증 경계를 갖춘 화면 구조 |
-
-> **범위 안내:** TCO Insight는 차량 구매비·감가상각·보험·금융비용 전체가 아닌 비교용 운영비 기준선을 계산합니다. PICKLE 수치는 동일한 데이터베이스를 기준으로 고정 질의 20개와 임베딩 질의 30개를 세 차례 반복 평가한 내부 자동 평가 결과이며 프로덕션 정확도가 아닙니다. LG Home AI는 공식 LG 서비스가 아닌 학습용 팀 프로젝트입니다.
+<table width="100%">
+  <tr>
+    <td width="50%" align="left" valign="top">
+      <strong>사용자 흐름·인터페이스</strong><br><br>
+      <img src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square&amp;logo=figma&amp;logoColor=white" alt="Figma" />
+    </td>
+    <td width="50%" align="left" valign="top">
+      <strong>계획·구현·테스트</strong><br><br>
+      <img src="https://custom-icon-badges.demolab.com/badge/Codex-000000?style=flat-square&amp;logo=openai&amp;logoColor=white" alt="Codex" />
+      <img src="https://img.shields.io/badge/Claude_Code-D97757?style=flat-square&amp;logo=claude&amp;logoColor=white" alt="Claude Code" />
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="left" valign="top">
+      <strong>탐색·수정·리뷰·문서화</strong><br><br>
+      <img src="https://img.shields.io/badge/Cursor-000000?style=flat-square&amp;logo=cursor&amp;logoColor=white" alt="Cursor" />
+      <img src="https://custom-icon-badges.demolab.com/badge/VS_Code-007ACC?style=flat-square&amp;logo=visualstudiocode&amp;logoColor=white" alt="Visual Studio Code" />
+    </td>
+    <td width="50%" align="left" valign="top">
+      <strong>설계 판단·결과 검증</strong><br><br>
+      <img src="https://custom-icon-badges.demolab.com/badge/My_Decision-238636?style=flat-square&amp;logo=check-circle&amp;logoSource=feather&amp;logoColor=white" alt="My Decision" />
+    </td>
+  </tr>
+</table>
 
 ## Tech Stack
 
-- **Frontend 핵심:** `React` · `TypeScript` · `JavaScript` · `Axios` · `TanStack Query` · `Zod`
-- **UI 구현:** `Figma` · `Tailwind CSS` · `Ant Design` · `Django Templates` · `Streamlit`
-- **LLM 직접 구현:** `LangGraph` · `LangChain` · `RAG` · `OpenAI API` · `Structured Output`
-- **Backend·Data 직접 사용:** `Python` · `Django ORM` · `pandas` · `scikit-learn` · `XGBoost` · `SQLite`
-- **팀 시스템 연동:** `Django REST API` · `FastAPI` · `MySQL` · `Celery` · `MLflow` · `Pinecone` · `RunPod` · `AWS` · `Docker` · `GitHub Actions`
-- **검증·협업:** `Vitest` · `Testing Library` · `MSW` · `Playwright` · `Git/GitHub`
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <strong>Frontend</strong><br><br>
+      <img src="https://img.shields.io/badge/React-20232A?style=flat-square&amp;logo=react&amp;logoColor=61DAFB" alt="React" />
+      <img src="https://img.shields.io/badge/Axios-5A29E4?style=flat-square&amp;logo=axios&amp;logoColor=white" alt="Axios" />
+      <img src="https://img.shields.io/badge/TanStack_Query-FF4154?style=flat-square&amp;logo=reactquery&amp;logoColor=white" alt="TanStack Query" />
+      <img src="https://img.shields.io/badge/Zod-3E67B1?style=flat-square&amp;logo=zod&amp;logoColor=white" alt="Zod" />
+    </td>
+    <td width="50%" valign="top">
+      <strong>Backend</strong><br><br>
+      <img src="https://img.shields.io/badge/Django-092E20?style=flat-square&amp;logo=django&amp;logoColor=white" alt="Django" />
+      <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&amp;logo=fastapi&amp;logoColor=white" alt="FastAPI" />
+      <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&amp;logo=streamlit&amp;logoColor=white" alt="Streamlit" />
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <strong>AI &amp; LLM</strong><br><br>
+      <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&amp;logo=langgraph&amp;logoColor=white" alt="LangGraph" />
+      <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&amp;logo=langchain&amp;logoColor=white" alt="LangChain" />
+      <img src="https://custom-icon-badges.demolab.com/badge/RAG-5B5BD6?style=flat-square&amp;logo=search&amp;logoSource=feather&amp;logoColor=white" alt="Retrieval-Augmented Generation" />
+      <img src="https://custom-icon-badges.demolab.com/badge/Pinecone-000000?style=flat-square&amp;logo=pinecone&amp;logoColor=white" alt="Pinecone" />
+    </td>
+    <td width="50%" valign="top">
+      <strong>Data &amp; ML</strong><br><br>
+      <img src="https://img.shields.io/badge/pandas-150458?style=flat-square&amp;logo=pandas&amp;logoColor=white" alt="pandas" />
+      <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&amp;logo=scikitlearn&amp;logoColor=white" alt="scikit-learn" />
+      <img src="https://img.shields.io/badge/MLflow-0194E2?style=flat-square&amp;logo=mlflow&amp;logoColor=white" alt="MLflow" />
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <strong>Database</strong><br><br>
+      <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&amp;logo=mysql&amp;logoColor=white" alt="MySQL" />
+      <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&amp;logo=sqlite&amp;logoColor=white" alt="SQLite" />
+    </td>
+    <td width="50%" valign="top">
+      <strong>Test &amp; Quality</strong><br><br>
+      <img src="https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&amp;logo=vitest&amp;logoColor=white" alt="Vitest" />
+      <img src="https://img.shields.io/badge/Testing_Library-E33332?style=flat-square&amp;logo=testinglibrary&amp;logoColor=white" alt="Testing Library" />
+      <img src="https://img.shields.io/badge/MSW-FF6A33?style=flat-square&amp;logo=mockserviceworker&amp;logoColor=white" alt="Mock Service Worker" />
+      <img src="https://custom-icon-badges.demolab.com/badge/Playwright-2EAD33?style=flat-square&amp;logo=playwright&amp;logoColor=white" alt="Playwright" />
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top">
+      <strong>DevOps &amp; Collaboration</strong><br><br>
+      <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&amp;logo=docker&amp;logoColor=white" alt="Docker" />
+      <img src="https://custom-icon-badges.demolab.com/badge/AWS-232F3E?style=flat-square&amp;logo=aws&amp;logoColor=white" alt="Amazon Web Services" />
+      <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&amp;logo=githubactions&amp;logoColor=white" alt="GitHub Actions" />
+      <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&amp;logo=git&amp;logoColor=white" alt="Git" />
+      <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&amp;logo=github&amp;logoColor=white" alt="GitHub" />
+    </td>
+  </tr>
+</table>
 
-## How I Build
+## Explore My Work
 
-- **흐름과 완료 기준을 먼저 맞춥니다:** 사용자 흐름·데이터 구조·API 계약·역할 범위·완료 기준을 구현 전에 정리합니다.
-- **계약을 문서와 코드로 연결합니다:** 요청·응답 구조를 문서화하고 타입·Zod·Adapter로 런타임까지 검증합니다.
-- **실패 상태도 사용자 경험으로 설계합니다:** 로딩·오류·인증 만료·요청 취소·비동기 상태를 정상 흐름과 함께 다룹니다.
-- **막힌 지점을 구조화해 공유합니다:** 문제의 맥락, 시도한 방법, 예상과 실제 결과를 공유해 중복 작업과 늦은 발견을 줄입니다.
-- **검증 결과를 공동 기준으로 남깁니다:** 내부 평가·정적 QA·자동 테스트를 반복하고 코드와 인터페이스 문서를 동기화합니다.
-
-## Other Work
-
-- [oh_my_agents_v2](https://github.com/minhyeok328/oh_my_agents_v2): Codex 서브에이전트 오케스트레이션, 재사용 가능한 규칙과 문서 검증 방식을 탐구한 저장소입니다.
-
-## GitHub Activity
-
-<p align="center">
-  <img height="195" src="https://streak-stats.demolab.com?user=minhyeok328&theme=github-dark-blue" alt="GitHub Streak" />
-  <img height="195" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=minhyeok328&theme=github_dark" alt="Top Languages by Repo" />
-</p>
+<table width="100%">
+  <tr>
+    <td align="center">
+      <strong>프로젝트에서 해결한 문제와 맡은 역할이 궁금하다면</strong><br><br>
+      구현 과정과 검증 결과를 포트폴리오에 정리했습니다.<br><br>
+      <a href="https://minhyeok328.github.io/"><strong>포트폴리오 보러 가기 →</strong></a>
+    </td>
+  </tr>
+</table>
