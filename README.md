@@ -13,9 +13,7 @@
   Python·Django와 React·TypeScript를 주로 사용하며, LLM·RAG 기반 기능을 개발합니다.
 </p>
 
----
-
-<h2 align="center">Tech Stack</h2>
+<br>
 
 <p align="center">
   <kbd>
