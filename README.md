@@ -1,11 +1,11 @@
 <h1 align="center">서민혁 | Full-Stack Developer</h1>
 
 <p align="center">
-  <a href="https://minhyeok328.github.io/" title="Portfolio"><img src="https://api.iconify.design/mdi:web.svg?color=%2358A6FF" width="24" height="24" alt="Portfolio" /></a>
+  <a href="https://minhyeok328.github.io/" title="프로젝트 기록 보기"><img src="https://api.iconify.design/mdi:web.svg?color=%2358A6FF" width="24" height="24" alt="Portfolio" /></a>
   &nbsp;&nbsp;
-  <a href="https://blog.naver.com/m______yuk" title="Naver Blog"><img src="https://cdn.simpleicons.org/naver/03C75A" width="24" height="24" alt="Naver Blog" /></a>
+  <a href="https://blog.naver.com/m______yuk" title="공부 기록 보기"><img src="https://cdn.simpleicons.org/naver/03C75A" width="24" height="24" alt="Naver Blog" /></a>
   &nbsp;&nbsp;
-  <a href="mailto:tjalsgur328@gmail.com" title="Email"><img src="https://cdn.simpleicons.org/gmail/EA4335" width="24" height="24" alt="Email" /></a>
+  <a href="mailto:tjalsgur328@gmail.com" title="메일로 연락하기"><img src="https://cdn.simpleicons.org/gmail/EA4335" width="24" height="24" alt="Email" /></a>
 </p>
 
 <p align="center">
