@@ -1,6 +1,8 @@
-<h1 align="center">서민혁</h1>
+<h1 align="center">서민혁 | Full-Stack Developer</h1>
 
-<h3 align="center">Full-Stack Developer</h3>
+<p align="center">
+  <em>What if we asked “Why not?” instead of “Is it really possible?”</em>
+</p>
 
 <p align="center">
   <a href="https://minhyeok328.github.io/" title="프로젝트 기록 보기"><img src="https://api.iconify.design/mdi:web.svg?color=%2358A6FF" width="24" height="24" alt="Portfolio" /></a>
