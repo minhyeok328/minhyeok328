@@ -1,4 +1,6 @@
-<h1 align="center">서민혁 | Full-Stack Developer</h1>
+<h1 align="center">서민혁</h1>
+
+<h3 align="center">Full-Stack Developer</h3>
 
 <p align="center">
   <a href="https://minhyeok328.github.io/" title="프로젝트 기록 보기"><img src="https://api.iconify.design/mdi:web.svg?color=%2358A6FF" width="24" height="24" alt="Portfolio" /></a>
@@ -8,9 +10,14 @@
   <a href="mailto:tjalsgur328@gmail.com" title="메일로 연락하기"><img src="https://cdn.simpleicons.org/gmail/EA4335" width="24" height="24" alt="Email" /></a>
 </p>
 
-<p align="center">
-  백엔드의 동작 원리가 궁금해 시작했고, 프론트엔드를 맡으며 사용자가 이해하는 방식을 배웠습니다.<br>
-  데이터가 화면에 닿기까지의 흐름을 살피고 연결하는 개발자 서민혁입니다.
+<br>
+
+<h3 align="left">About Me</h3>
+
+<p align="left">
+  백엔드의 동작 원리가 궁금해 시작했고,<br>
+  프론트엔드를 맡으며 사용자가 이해하는 방식을 배웠습니다.<br>
+  데이터가 화면에 닿기까지의 흐름을 살피고 연결합니다.
 </p>
 
 <br>
